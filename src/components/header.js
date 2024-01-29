@@ -8,10 +8,10 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link" href="portfolio.html">portfolio</a>
-            <a className="nav-link" href="resume.html">resume</a>
-            <a className="nav-link" href="about.html">about</a>
-            <a className="nav-link" href="contact.html">contact</a> 
+            <a className="nav-link" href="#">portfolio</a>
+            <a className="nav-link" href="#">resume</a>
+            <a className="nav-link" href="#">about</a>
+            <a className="nav-link" href="#">contact</a> 
           </div>
         </div>
       </div>    
