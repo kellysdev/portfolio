@@ -8,7 +8,7 @@ const Header = () => {
         <a className="nav-brand" href="/">kelly scott</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggle-icon">
-            <i class="bi bi-list"></i>
+            <i className="bi bi-list"></i>
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
