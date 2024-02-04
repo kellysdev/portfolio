@@ -7,6 +7,7 @@ import Intro from "./components/intro";
 import ResumePage from "./components/resume-page";
 import Portfolio from "./components/portfolio";
 import About from "./components/about";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -42,6 +43,16 @@ function App() {
                   <About />
                 </Col>
               }
+            />
+
+            <Route
+              path="/contact"
+              element={
+                <Col>
+                  <Header />
+                  <Contact />
+                </Col>
+              }            
             />
 
         </Routes>
