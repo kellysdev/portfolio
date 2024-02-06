@@ -16,17 +16,6 @@ const Header = () => {
             <Nav.Link as={Link} to="/contact" className="nav-link">contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-
-        {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggle-icon">
-            <i className="bi bi-list"></i>
-          </span>
-        </button>
-
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-          </div>
-        </div> */}   
     </Navbar>
   );
 };
