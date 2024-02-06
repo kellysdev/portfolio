@@ -25,6 +25,16 @@ code {
   border-radius: 3px;
 }
 
+.social-icons {
+  width: 30px;
+  height: 30px;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+}
+
 @media (min-width: 990px) {
   .intro-title {
     margin-top: 30%;

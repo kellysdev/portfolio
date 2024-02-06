@@ -8,6 +8,7 @@ import ResumePage from "./components/resume-page";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                   <Header />
                   <Intro />
                   <Portfolio />
+                  <Footer />
                 </Col>
               }
             />
@@ -31,6 +33,7 @@ function App() {
                 <Col>
                   <Header />
                   <ResumePage />
+                  <Footer />
                 </Col>
               }
             />
@@ -41,6 +44,7 @@ function App() {
                 <Col>
                   <Header />
                   <About />
+                  <Footer />
                 </Col>
               }
             />
@@ -51,6 +55,7 @@ function App() {
                 <Col>
                   <Header />
                   <Contact />
+                  <Footer />
                 </Col>
               }            
             />
