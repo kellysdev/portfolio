@@ -6,7 +6,6 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import ResumePage from "./components/resume-page";
 import Portfolio from "./components/portfolio";
-import About from "./components/about";
 import Contact from "./components/contact";
 
 function App() {
@@ -31,16 +30,6 @@ function App() {
                 <Col>
                   <Header />
                   <ResumePage />
-                </Col>
-              }
-            />
-
-            <Route
-              path="/about"
-              element={
-                <Col>
-                  <Header />
-                  <About />
                 </Col>
               }
             />
