@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./components/header";
 import Intro from "./components/intro";
 import ResumePage from "./components/resume-page";
+import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 
@@ -30,6 +31,16 @@ function App() {
                 <Col>
                   <Header />
                   <ResumePage />
+                </Col>
+              }
+            />
+
+            <Route
+              path="/about"
+              element={
+                <Col>
+                  <Header />
+                  <About />
                 </Col>
               }
             />
