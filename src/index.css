@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+#root {
+  background-color: #FAF7F5;
+  color: #393939;
+}
+
 .intro {
   height: 100vh;
 }
