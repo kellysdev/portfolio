@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+.intro {
+  height: 100vh;
+}
+
+.title {
+  margin-top: 50%;
+}
+
 .portrait {
   width: 250px;
   border-radius: 3px;

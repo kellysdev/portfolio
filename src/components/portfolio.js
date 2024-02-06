@@ -16,8 +16,10 @@ const Portfolio = () => {
           <Card>
             <Card.Body>
               <Card.Img variant="top" src="meet.png" alt="meet app screenshot" />
-              <Card.Title>React PWA</Card.Title>
-              <Card.Subtitle>Meet</Card.Subtitle>
+              <Card.Title className="my-2">
+                <h3>React PWA</h3>
+              </Card.Title>
+              <Card.Subtitle className="my-2">Meet</Card.Subtitle>
               <Card.Text>
                 A serverless, progressive web application built with React using a test-driven development technique. 
                 Fetches upcoming events from the Google Calendar API and utilizes OAuth2 authentication.
@@ -27,7 +29,7 @@ const Portfolio = () => {
               <Card.Link href="https://lladysmall.github.io/meet/">Explore the live app here!</Card.Link>
             </Card.Body>
             <Card.Footer>
-              <Badge>AWS</Badge> <Badge>OAuth2</Badge> <Badge>Node</Badge> <Badge>React</Badge> <Badge>Jest / React Testing Library</Badge> <Badge>cucumber-jest</Badge> <Badge>Atatus</Badge> <Badge>Lighthouse</Badge> <Badge>CSS</Badge> <Badge>HTML / JSX</Badge> <Badge>JavaScript</Badge>
+              <Badge className="bg-secondary">AWS</Badge> <Badge className="bg-secondary">OAuth2</Badge> <Badge className="bg-secondary">Node</Badge> <Badge className="bg-secondary">React</Badge> <Badge className="bg-secondary">Jest / React Testing Library</Badge> <Badge className="bg-secondary">cucumber-jest</Badge> <Badge className="bg-secondary">Atatus</Badge> <Badge className="bg-secondary">Lighthouse</Badge> <Badge className="bg-secondary">Recharts</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">HTML / JSX</Badge> <Badge className="bg-secondary">JavaScript</Badge>
             </Card.Footer>
           </Card>
         </Col>
@@ -36,8 +38,10 @@ const Portfolio = () => {
           <Card>
             <Card.Body>
               <Card.Img variant="top" src="popopolis.png" alt="movie app screenshot" />
-              <Card.Title>MERN Crud App</Card.Title>
-              <Card.Subtitle>PopOpolis</Card.Subtitle>
+              <Card.Title className="my-2">
+                <h3>MERN Crud App</h3>
+              </Card.Title>
+              <Card.Subtitle className="my-2">PopOpolis</Card.Subtitle>
               <Card.Text>
                 A CRUD single-page movie application built with MERN, a REST API, Bootstrap, and hosted on Netlify.
               </Card.Text>
@@ -46,7 +50,7 @@ const Portfolio = () => {
               <Card.Link href="https://popopolis.netlify.app/">Explore the live app here!</Card.Link>
             </Card.Body>
             <Card.Footer>
-              <Badge>MongoDB</Badge> <Badge>Express</Badge> <Badge>React</Badge> <Badge>Node</Badge> <Badge>react-router</Badge> <Badge>Parcel</Badge> <Badge>Bootstrap</Badge> <Badge>Netlify</Badge> <Badge>Heroku</Badge> <Badge>CSS</Badge> <Badge>HTML / JSX</Badge> <Badge>JavaScript</Badge>
+              <Badge className="bg-secondary">MongoDB</Badge> <Badge className="bg-secondary">Express</Badge> <Badge className="bg-secondary">React</Badge> <Badge className="bg-secondary">Node</Badge> <Badge className="bg-secondary">react-router</Badge> <Badge className="bg-secondary">Parcel</Badge> <Badge className="bg-secondary">Bootstrap</Badge> <Badge className="bg-secondary">Netlify</Badge> <Badge className="bg-secondary">Heroku</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">HTML / JSX</Badge> <Badge className="bg-secondary">JavaScript</Badge>
             </Card.Footer>
           </Card>
         </Col>
@@ -55,15 +59,17 @@ const Portfolio = () => {
           <Card>
             <Card.Body>
               <Card.Img variant="top" src="pokedex.png" alt="pokedex app screenshot" />
-              <Card.Title>API Fetch App</Card.Title>
-              <Card.Subtitle>Pokedex</Card.Subtitle>
+              <Card.Title className="my-2">
+                <h3>API Fetch App</h3>
+              </Card.Title>
+              <Card.Subtitle className="my-2">Pokedex</Card.Subtitle>
               <Card.Text>
                 Built with HTML, CSS, JavaScript, some JQuery, and Bootstrap. The app loads data from an external API, the PokeAPI, and enables the viewing of data points in detail.
               </Card.Text>
               <Card.Link>See this project on GitHub</Card.Link>
             </Card.Body>
             <Card.Footer>
-              <Badge>HTML</Badge> <Badge>CSS</Badge> <Badge>JavaScript</Badge> <Badge>jQuery</Badge> <Badge>Bootstrap</Badge>
+              <Badge className="bg-secondary">HTML</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">JavaScript</Badge> <Badge className="bg-secondary">jQuery</Badge> <Badge className="bg-secondary">Bootstrap</Badge>
             </Card.Footer>
           </Card>
         </Col>
