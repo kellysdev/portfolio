@@ -6,7 +6,7 @@ const ResumePage = () => {
     <Row>
       <Col>
         <Row>
-          <button className="download-button" type="button"
+          <button className="download-button mt-5" type="button"
             data="../../public/Scott-Kelly-Resume.pdf" download="Scott-Kelly-Resume.pdf"
           ><i className="bi bi-download"></i> Download Resume</button>
         </Row>

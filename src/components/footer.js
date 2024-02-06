@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 const Footer = () => {
   return (
     <Row className="my-5 footer">
-      {/* <Col className="container-flex"> */}
       <Col>
         <Row>
           <p>Find me on</p>

@@ -3,14 +3,14 @@ import Col from "react-bootstrap/Col";
 
 const About = () => {
   return (
-    <Row>
+    <Row className="my-5">
       <h1 className="my-3">About</h1>
 
       <Col md="auto">
         <img src="portrait.png" alt="Kelly Scott portrait" className="portrait"/>
       </Col>
 
-      <Col md="7">
+      <Col md="7" className="mb-5">
         <p className="about-text">
           Through my background in brewing and research, I have developed an analytical and systematic approach to my work. 
           Writing standard operating procedures and developing curriculum for brewing courses has led me to focus on comprehension and user experience.

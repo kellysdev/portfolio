@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 
 const Contact = () => {
   return (
-    <Row>
+    <Row className="my-5">
       <h1>Contact Me</h1>
       <Form>
         <Form.Group>
