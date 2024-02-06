@@ -24,3 +24,9 @@ code {
   width: 250px;
   border-radius: 3px;
 }
+
+@media (min-width: 990px) {
+  .intro-title {
+    margin-top: 30%;
+  }
+}

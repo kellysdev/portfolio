@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <>
       <Row>
-        <h1>
+        <h1 className="my-4">
           Portfolio
         </h1>
       </Row>
