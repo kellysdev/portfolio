@@ -55,6 +55,10 @@ code {
   text-align: center;
 }
 
+.mcs-credits {
+  text-align: center;
+}
+
 .portrait {
   width: 250px;
   border-radius: 3px;
