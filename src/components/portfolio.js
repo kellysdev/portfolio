@@ -11,7 +11,8 @@ const Portfolio = () => {
           Portfolio
         </h1>
       </Row>
-      <Row xs={1} md={2} lg={3} xl={4} className="g-4">
+
+      <Row xs={1} sm={2} lg={3} xl={4} className="mb-5" >
         <Col>
           <Card>
             <Card.Body>
