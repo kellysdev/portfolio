@@ -133,13 +133,13 @@ const MovieCaseStudy = () => {
             <h4>Challenges:</h4>
             <ul>
               <li>
-                I had a hard time extracting the movie data from the parent component, MainView, and passing it to the MovieCard so that it would display data from within the movie object.
+                Extracting the movie data from the parent component, MainView, and passing it to the MovieCard so that it would display data from within the movie object.
               </li>
               <li>
-                Search bar functionality and state management
+                Search bar functionality and state management.
               </li>
               <li>
-                Favorite movies persisting after leaving profile view
+                Favorite movies persisting after leaving profile view.
               </li>
             </ul>
           </Col>
@@ -148,20 +148,20 @@ const MovieCaseStudy = () => {
           <h4>Solutions:</h4>
           <p>
             I took courses through Codecademy to supplement my knowledge of React.<br/>
-            I also worked with my mentor, who discovered a syntax error that solved the problem with movie data not displaying: INSERTPICTURE
+            I also worked with my mentor, who discovered a syntax error that solved the problem with movie data not displaying, and helped me with state management.
           </p>
         </Row>
 
         <Row>
-          <Col sm={2} md={4} ></Col>
+          <Col sm={2} md={3} ></Col>
           <Col>
             <h3 className="mb-3 popopolis-logo">2a - Technology</h3>
             <p>
-              <span>The backbone of this application is React:</span><br/>
+              <b>The backbone of this application is React:</b><br/>
               A JavaScript library that uses components and state management to create user interfaces. The parent component stores data and passes it to child components. <br/><br/>
               In this application, for example, the MainView component is the landing page after logging in and loads the data for all the movies.  It then passes that data to MovieCard, MovieView and ProfileView components.
               </p>
-              <span>Bootstrap:</span><br/>
+              <b>Bootstrap:</b><br/>
               A framework for responsive websites that follows a grid system to organize the layout of your user interface and has prebuilt components, utilities, and styling.<br/><br/>
               Components utilized in this application were the navigation bar, cards, forms, search bar, modal, and buttons.<br/><br/>
           </Col>
