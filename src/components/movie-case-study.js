@@ -14,8 +14,8 @@ const MovieCaseStudy = () => {
               <div className="mask">
                 <div className="d-flex justify-content-center align-items-center h-100">
                   <div className="text-white">
-                    <h1 className="mt-5 text-warning">Case Study</h1>
-                    <h4 className="mb-5 text-warning">React CRUD Movie Application</h4>
+                    <h1 className="mt-5 text-warning popopolis-logo">Case Study</h1>
+                    <h4 className="mb-5 text-warning popopolis-logo">React CRUD Movie Application</h4>
                   </div>
                 </div>
               </div>
@@ -25,13 +25,13 @@ const MovieCaseStudy = () => {
 
         <Row className="mt-4">
           <Col>
-            <h3>Overview</h3>
+            <h3 className="popopolis-logo">Overview</h3>
             <p>
               This project is a single-page, responsive app with several interface views and a polished user experience.
             </p>
           </Col>
           <Col>
-            <h3>Purpose & Context</h3>
+            <h3 className="popopolis-logo">Purpose & Context</h3>
             <p>
               This app was built to add to my portfolio while taking the CareerFoundry Full-Stack Web Development course.  It was instrumental in learning to utilize the MERN tech stack.
             </p>
@@ -39,7 +39,7 @@ const MovieCaseStudy = () => {
         </Row>
         <Row className="mb-4">
           <Col>
-            <h3>Objective</h3>
+            <h3 className="popopolis-logo">Objective</h3>
             <p>
               The aim of this project was to build the client-side to complement a previously built server-side API (application programming interface).  Together, these applications allow a user CRUD interactivity (the ability to create, read, update, and delete information) with a movie application in the form of creating and deleting an account, viewing information about movies, editing user information, and maintaining a list of their own favorite movies.
             </p>
@@ -50,7 +50,7 @@ const MovieCaseStudy = () => {
 
         <Row className="my-5">
           <Col>
-            <h3>Developement Steps</h3>
+            <h3 className="popopolis-logo">Developement Steps</h3>
             <ol>
               <li>Planning and setting up the project</li>
               <li>Creating the components</li>
@@ -62,7 +62,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
-          <h3 className="mb-3">1 - Planning</h3>
+          <h3 className="mb-3 popopolis-logo">1 - Planning</h3>
           <Col>
             <h4>Goal:</h4>
             <p>To decide on the technologies needed to build the project and start setting up the file and component structure based on the project brief.</p>
@@ -121,7 +121,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="mt-5">
-          <h3 className="mb-3">2- Creating the Components</h3>
+          <h3 className="mb-3 popopolis-logo">2- Creating the Components</h3>
           <Col>
             <h4>Goal:</h4>
             <p>
@@ -155,7 +155,7 @@ const MovieCaseStudy = () => {
         <Row>
           <Col sm={2} md={4} ></Col>
           <Col>
-            <h3 className="mb-3">2a - Technology</h3>
+            <h3 className="mb-3 popopolis-logo">2a - Technology</h3>
             <p>
               <span>The backbone of this application is React:</span><br/>
               A JavaScript library that uses components and state management to create user interfaces. The parent component stores data and passes it to child components. <br/><br/>
@@ -169,7 +169,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
-          <h3>3 - Client-side Routing</h3>
+          <h3 className="popopolis-logo">3 - Client-side Routing</h3>
           <p>popopolis.netlify.app/ <span></span> popopolis.netlify.app/profile</p>
           <Col>
             <h4>Goal:</h4>
@@ -188,7 +188,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
-          <h3 className="mb-3">4 - Deploy on Netlify</h3>
+          <h3 className="mb-3 popopolis-logo">4 - Deploy on Netlify</h3>
           <Col>
             <h4>Goal:</h4>
             <p>To deploy an application that meets the requirements of the project brief.</p>
@@ -248,7 +248,7 @@ const MovieCaseStudy = () => {
         <Row className="bg-warning py-1 mt-5"></Row>
 
         <Row className="my-5">
-          <img className="movie-logo mb-4" src="logo.png" alt="PopOpolis"/>
+          <h1 className="popopolis-logo">PopOpolis</h1>
           <h3>Credits:</h3>
           <p>
             Lead Developer: Kelly Scott<br/>
