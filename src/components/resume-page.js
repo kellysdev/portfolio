@@ -1,14 +1,15 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button"
 
 const ResumePage = () => {
   return (
     <Row>
       <Col>
         <Row>
-          <button className="download-button mt-5" type="button"
-            data="../../public/Scott-Kelly-Resume.pdf" download="Scott-Kelly-Resume.pdf"
-          ><i className="bi bi-download"></i> Download Resume</button>
+          {" "}<Button className="download-button mt-5 mx-5" type="button" variant="outline-dark"
+            href={require("../Scott-Kelly-Resume.pdf")} download="Scott-Kelly-Resume.pdf"
+          ><i className="bi bi-download"></i> Download Resume</Button>{" "}
         </Row>
         <Row>
           <img src="Scott-Kelly-Resume.svg" alt="Kelly Scott's Resume" />
