@@ -172,7 +172,7 @@ const MovieCaseStudy = () => {
           <h3 className="popopolis-logo">3 - Client-side Routing</h3>
           <p>
             popopolis.netlify.app/    
-            <i class="bi bi-arrow-right text-warning"></i>
+            <i className="bi bi-arrow-right text-warning"></i>
             popopolis.netlify.app/profile
           </p>
           <Col>
