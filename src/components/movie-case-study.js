@@ -182,7 +182,6 @@ const MovieCaseStudy = () => {
           <Col>
             <h4>Challenge:</h4>
             <p>Rearranging most of the return code in MainView.</p>
-            {/* <img className="route-image" src="routing.png" alt="a screenshot of code" /> */}
           </Col>
           <Col>
             <h4>Solution:</h4>
@@ -251,16 +250,16 @@ const MovieCaseStudy = () => {
 
         <Row className="bg-warning py-1 mt-5"></Row>
 
-        <Row className="my-5">
-          <h1 className="popopolis-logo mcs-credits">PopOpolis</h1>
-          <h3 className="mcs-credits">Credits:</h3>
-          <p className="mcs-credits">
+        <Row className="my-5" style={{textAlign: "center"}}>
+          <h1 className="popopolis-logo">PopOpolis</h1>
+          <h3>Credits:</h3>
+          <p>
             Lead Developer: Kelly Scott<br/>
             Mentor: Vini De Antoni<br/>
             Tutor: Jason Early
           </p>
-          <a className="mcs-credits" href="https://github.com/lladysmall/movie-client">GitHub Repository</a>
-          <a className="mcs-credits" href="https://popopolis.netlify.app/login">App Hosted on Netlify</a>
+          <a href="https://github.com/lladysmall/movie-client">GitHub Repository</a>
+          <a href="https://popopolis.netlify.app/login">App Hosted on Netlify</a>
         </Row>
 
       </Col>
