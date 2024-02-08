@@ -170,7 +170,11 @@ const MovieCaseStudy = () => {
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3 className="popopolis-logo">3 - Client-side Routing</h3>
-          <p>popopolis.netlify.app/ <span></span> popopolis.netlify.app/profile</p>
+          <p>
+            popopolis.netlify.app/    
+            <i class="bi bi-arrow-right text-warning"></i>
+            popopolis.netlify.app/profile
+          </p>
           <Col>
             <h4>Goal:</h4>
             <p>To link the different components together, using React Router and react-router-dom, so that they can be accessed from the single-page application.</p>

@@ -38,6 +38,10 @@ code {
   margin-left: 80%!important;
 }
 
+.bi-arrow-right {
+  margin-inline: 10px;
+}
+
 .popopolis-logo {
   font-family: 'Limelight', sans-serif;
 }
