@@ -6,7 +6,7 @@ const MovieCaseStudy = () => {
   return (
     <Row>
       <Col>
-                {/* hero */}
+{/* hero */}
         <Row>
           <header className="hero has-bg-img" style={{ paddingLeft: 0 }}>
             <div className="p-3 text-center bg-image">
@@ -23,6 +23,7 @@ const MovieCaseStudy = () => {
           </header>
         </Row>
 
+{/* overview */}
         <Row className="mt-4">
           <Col>
             <h3 className="popopolis-logo">Overview</h3>
@@ -48,9 +49,10 @@ const MovieCaseStudy = () => {
 
         <Row className="bg-warning py-1"></Row>
 
+{/* development steps */}
         <Row className="my-5">
           <Col>
-            <h3 className="popopolis-logo">Developement Steps</h3>
+            <h3 className="popopolis-logo">Development Steps</h3>
             <ol>
               <li>Planning and setting up the project</li>
               <li>Creating the components</li>
@@ -60,6 +62,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+{/* step 1 - planning */}
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3 className="mb-3 popopolis-logo">1 - Planning</h3>
@@ -77,6 +80,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+{/* wireframes carousel */}
         <Row className="justify-content-xs-center my-5">
           <h4>Wireframes from the Project Brief</h4>
           <Carousel data-bs-theme="dark">
@@ -119,6 +123,7 @@ const MovieCaseStudy = () => {
           </Carousel>
         </Row>
 
+{/* step 2 - components */}
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="mt-5">
           <h3 className="mb-3 popopolis-logo">2- Creating the Components</h3>
@@ -152,6 +157,7 @@ const MovieCaseStudy = () => {
           </p>
         </Row>
 
+{/* tech used */}
         <Row>
           <Col sm={2} md={3} ></Col>
           <Col>
@@ -167,6 +173,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+{/* step 3 - routing */}
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3 className="popopolis-logo">3 - Client-side Routing</h3>
@@ -189,6 +196,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+{/* step 4 - deploy */}
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3 className="mb-3 popopolis-logo">4 - Deploy on Netlify</h3>
@@ -206,6 +214,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+{/* screenshots carousel */}
         <Row>
         <h4>Finished Product</h4>
           <Carousel data-bs-theme="dark">
@@ -250,6 +259,7 @@ const MovieCaseStudy = () => {
 
         <Row className="bg-warning py-1 mt-5"></Row>
 
+{/* credits */}
         <Row className="my-5" style={{textAlign: "center"}}>
           <h1 className="popopolis-logo">PopOpolis</h1>
           <h3>Credits:</h3>
