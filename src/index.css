@@ -46,6 +46,15 @@ code {
   font-family: 'Limelight', sans-serif;
 }
 
+.carousel-img {
+  max-width: 600px;
+  max-height: 500px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
 .portrait {
   width: 250px;
   border-radius: 3px;

@@ -77,42 +77,42 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
-        <Row className="my-5">
-          <h5>Wireframes from the Project Brief</h5>
-          <Carousel>
+        <Row className="justify-content-xs-center my-5">
+          <h4>Wireframes from the Project Brief</h4>
+          <Carousel data-bs-theme="dark">
 
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-home.png" alt="wireframe for main view" />
               <Carousel.Caption>
-                <h4>Main View</h4>
+                <h5 className="text-secondary">Main View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-movie.png" alt="wireframe for movie view" />
               <Carousel.Caption>
-                <h4>Movie View</h4>
+                <h5 className="text-secondary">Movie View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-profile.png" alt="wireframe for profile view" />
               <Carousel.Caption>
-                <h4>Profile View</h4>
+                <h5 className="text-secondary">Profile View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-login.png" alt="wireframe for login view" />
               <Carousel.Caption>
-                <h4>Login View</h4>
+                <h5 className="text-secondary">Login View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-signup.png" alt="wireframe for signup view" />
               <Carousel.Caption>
-                <h4>Signup View</h4>
+                <h4 className="text-secondary">Signup View</h4>
               </Carousel.Caption>
             </Carousel.Item>
             
@@ -208,41 +208,41 @@ const MovieCaseStudy = () => {
         </Row>
 
         <Row>
-        <h5>Finished Product</h5>
-          <Carousel>
+        <h4>Finished Product</h4>
+          <Carousel data-bs-theme="dark">
 
             <Carousel.Item>
               <img className="carousel-img" src="screenshot-home.png" alt="screenshot of main view" />
               <Carousel.Caption>
-                <h4>Main View</h4>
+                <h5>Main View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="screenshot-movie.png" alt="screenshot of movie view" />
               <Carousel.Caption>
-                <h4>Movie View</h4>
+                <h5>Movie View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="screenshot-profile.png" alt="screenshot of profile view" />
               <Carousel.Caption>
-                <h4>Profile View</h4>
+                <h5>Profile View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="screenshot-login.png" alt="screenshot of login view" />
               <Carousel.Caption>
-                <h4>Login View</h4>
+                <h5>Login View</h5>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img className="carousel-img" src="screenshot-signup.png" alt="screenshot of signup view" />
               <Carousel.Caption>
-                <h4>Signup View</h4>
+                <h5>Signup View</h5>
               </Carousel.Caption>
             </Carousel.Item>
             
