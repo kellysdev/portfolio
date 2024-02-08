@@ -29,6 +29,11 @@ code {
   margin-top: 50%;
 }
 
+.hero {
+  background-image: url("../public/bw-theater.jpg");
+  background-position: center;
+}
+
 .portrait {
   width: 250px;
   border-radius: 3px;
