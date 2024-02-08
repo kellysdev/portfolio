@@ -7,9 +7,9 @@ const ResumePage = () => {
     <Row>
       <Col>
         <Row>
-          {" "}<Button className="download-button mt-5 mx-5" type="button" variant="outline-dark"
+          <Button className="download-button mt-5 mx-5" type="button" variant="outline-dark"
             href={require("../Scott-Kelly-Resume.pdf")} download="Scott-Kelly-Resume.pdf"
-          ><i className="bi bi-download"></i> Download Resume</Button>{" "}
+          ><i className="bi bi-download"></i> Download Resume</Button>
         </Row>
         <Row>
           <img src="Scott-Kelly-Resume.svg" alt="Kelly Scott's Resume" />
