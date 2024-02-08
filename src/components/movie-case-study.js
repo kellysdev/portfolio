@@ -62,7 +62,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
-          <h3>1 - Planning</h3>
+          <h3 className="mb-3">1 - Planning</h3>
           <Col>
             <h4>Goal:</h4>
             <p>To decide on the technologies needed to build the project and start setting up the file and component structure based on the project brief.</p>
@@ -121,7 +121,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="mt-5">
-          <h3>2- Creating the Components</h3>
+          <h3 className="mb-3">2- Creating the Components</h3>
           <Col>
             <h4>Goal:</h4>
             <p>
@@ -155,7 +155,7 @@ const MovieCaseStudy = () => {
         <Row>
           <Col sm={2} md={4} ></Col>
           <Col>
-            <h3>2a - Technology</h3>
+            <h3 className="mb-3">2a - Technology</h3>
             <p>
               <span>The backbone of this application is React:</span><br/>
               A JavaScript library that uses components and state management to create user interfaces. The parent component stores data and passes it to child components. <br/><br/>
@@ -188,7 +188,7 @@ const MovieCaseStudy = () => {
 
         <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
-          <h3>4 - Deploy on Netlify</h3>
+          <h3 className="mb-3">4 - Deploy on Netlify</h3>
           <Col>
             <h4>Goal:</h4>
             <p>To deploy an application that meets the requirements of the project brief.</p>
@@ -245,10 +245,10 @@ const MovieCaseStudy = () => {
           </Carousel>
         </Row>
 
-        <Row className="bg-warning py-1"></Row>
+        <Row className="bg-warning py-1 mt-5"></Row>
 
         <Row className="my-5">
-          <img className="movie-logo" src="logo.png" alt="PopOpolis"/>
+          <img className="movie-logo mb-4" src="logo.png" alt="PopOpolis"/>
           <h3>Credits:</h3>
           <p>
             Lead Developer: Kelly Scott<br/>
