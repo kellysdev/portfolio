@@ -34,6 +34,10 @@ code {
   background-position: center;
 }
 
+.mini-dividers {
+  margin-left: 80%!important;
+}
+
 .portrait {
   width: 250px;
   border-radius: 3px;

@@ -60,6 +60,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+        <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3>1 - Planning</h3>
           <Col>
@@ -77,6 +78,7 @@ const MovieCaseStudy = () => {
         </Row>
 
         <Row className="my-5">
+          <h5>Wireframes from the Project Brief</h5>
           <Carousel>
 
             <Carousel.Item>
@@ -117,6 +119,7 @@ const MovieCaseStudy = () => {
           </Carousel>
         </Row>
 
+        <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="mt-5">
           <h3>2- Creating the Components</h3>
           <Col>
@@ -164,6 +167,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+        <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3>3 - Client-side Routing</h3>
           <p>popopolis.netlify.app/ <span></span> popopolis.netlify.app/profile</p>
@@ -182,6 +186,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
+        <Row className="mini-dividers bg-warning py-1"></Row>
         <Row className="my-5">
           <h3>4 - Deploy on Netlify</h3>
           <Col>
@@ -201,6 +206,8 @@ const MovieCaseStudy = () => {
         <Row>
           {/* screenshots carousel */}
         </Row>
+
+        <Row className="bg-warning py-1"></Row>
 
         <Row className="my-5">
           <img className="movie-logo" src="logo.png" alt="PopOpolis"/>
