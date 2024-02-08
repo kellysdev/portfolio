@@ -204,7 +204,45 @@ const MovieCaseStudy = () => {
         </Row>
 
         <Row>
-          {/* screenshots carousel */}
+        <h5>Finished Product</h5>
+          <Carousel>
+
+            <Carousel.Item>
+              <img className="carousel-img" src="screenshot-home.png" alt="screenshot of main view" />
+              <Carousel.Caption>
+                <h4>Main View</h4>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img className="carousel-img" src="screenshot-movie.png" alt="screenshot of movie view" />
+              <Carousel.Caption>
+                <h4>Movie View</h4>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img className="carousel-img" src="screenshot-profile.png" alt="screenshot of profile view" />
+              <Carousel.Caption>
+                <h4>Profile View</h4>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img className="carousel-img" src="screenshot-login.png" alt="screenshot of login view" />
+              <Carousel.Caption>
+                <h4>Login View</h4>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img className="carousel-img" src="screenshot-signup.png" alt="screenshot of signup view" />
+              <Carousel.Caption>
+                <h4>Signup View</h4>
+              </Carousel.Caption>
+            </Carousel.Item>
+            
+          </Carousel>
         </Row>
 
         <Row className="bg-warning py-1"></Row>
