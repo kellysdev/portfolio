@@ -78,41 +78,47 @@ const MovieCaseStudy = () => {
 
         <Row className="my-5">
           <Carousel>
+
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-home.png" alt="wireframe for main view" />
               <Carousel.Caption>
                 <h4>Main View</h4>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
-              <img className="carousel-img" src="wireframe-movie.png" alt="wireframe for movie view"/>
+              <img className="carousel-img" src="wireframe-movie.png" alt="wireframe for movie view" />
               <Carousel.Caption>
                 <h4>Movie View</h4>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-profile.png" alt="wireframe for profile view" />
               <Carousel.Caption>
                 <h4>Profile View</h4>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-login.png" alt="wireframe for login view" />
               <Carousel.Caption>
                 <h4>Login View</h4>
               </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-signup.png" alt="wireframe for signup view" />
               <Carousel.Caption>
                 <h4>Signup View</h4>
               </Carousel.Caption>
             </Carousel.Item>
+            
           </Carousel>
         </Row>
 
         <Row className="mt-5">
-          <h3>2 - Creating the Components</h3>
+          <h3>2- Creating the Components</h3>
           <Col>
             <h4>Goal:</h4>
             <p>
@@ -144,24 +150,21 @@ const MovieCaseStudy = () => {
         </Row>
 
         <Row>
-          <h3>2a - Technologies</h3>
+          <Col sm={2} md={4} ></Col>
           <Col>
+            <h3>2a - Technology</h3>
             <p>
               <span>The backbone of this application is React:</span><br/>
               A JavaScript library that uses components and state management to create user interfaces. The parent component stores data and passes it to child components. <br/><br/>
               In this application, for example, the MainView component is the landing page after logging in and loads the data for all the movies.  It then passes that data to MovieCard, MovieView and ProfileView components.
-            </p>
-          </Col>
-          <Col>
-            <p>
+              </p>
               <span>Bootstrap:</span><br/>
               A framework for responsive websites that follows a grid system to organize the layout of your user interface and has prebuilt components, utilities, and styling.<br/><br/>
-              Components utilized in this application were the navigation bar, cards, forms, search bar, modal, and buttons.
-            </p>
+              Components utilized in this application were the navigation bar, cards, forms, search bar, modal, and buttons.<br/><br/>
           </Col>
         </Row>
 
-        <Row>
+        <Row className="my-5">
           <h3>3 - Client-side Routing</h3>
           <p>popopolis.netlify.app/ <span></span> popopolis.netlify.app/profile</p>
           <Col>
@@ -171,7 +174,7 @@ const MovieCaseStudy = () => {
           <Col>
             <h4>Challenge:</h4>
             <p>Rearranging most of the return code in MainView.</p>
-            <img src="routing.png" alt="a screenshot of code" />
+            {/* <img className="route-image" src="routing.png" alt="a screenshot of code" /> */}
           </Col>
           <Col>
             <h4>Solution:</h4>
@@ -179,7 +182,7 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="my-5">
           <h3>4 - Deploy on Netlify</h3>
           <Col>
             <h4>Goal:</h4>
@@ -199,8 +202,8 @@ const MovieCaseStudy = () => {
           {/* screenshots carousel */}
         </Row>
 
-        <Row>
-          <img src="../public/movie-screenshots/logo.png" alt="PopOpolis"/>
+        <Row className="my-5">
+          <img className="movie-logo" src="logo.png" alt="PopOpolis"/>
           <h3>Credits:</h3>
           <p>
             Lead Developer: Kelly Scott<br/>
