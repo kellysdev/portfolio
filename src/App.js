@@ -9,6 +9,7 @@ import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import MovieCaseStudy from "./components/movie-case-study";
 
 function App() {
   return (
@@ -58,6 +59,17 @@ function App() {
                   <Footer />
                 </Col>
               }            
+            />
+
+            <Route
+              path="/movie-case-study"
+              element={
+                <Col>
+                <Header />
+                <MovieCaseStudy />
+                <Footer />
+                </Col>
+              }
             />
 
         </Routes>
