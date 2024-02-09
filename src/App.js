@@ -17,7 +17,7 @@ function App() {
       <Row>
         <Routes>
             <Route
-              path="/portfolio"
+              path="/"
               element={
                 <Col className="home">
                   <Header />
