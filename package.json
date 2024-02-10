@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "main": "index.html",
-  "homepage": "https://lladysmall.github.io/portfolio/",
+  "homepage": "https://lladysmall.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
