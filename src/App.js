@@ -15,15 +15,14 @@ function App() {
   return (
     <HashRouter>
       <Row>
+      <Header />
         <Routes>
             <Route
               path="/"
               element={
                 <Col className="home">
-                  <Header />
                   <Intro />
                   <Portfolio />
-                  <Footer />
                 </Col>
               }
             />
@@ -32,9 +31,7 @@ function App() {
               path="/resume"
               element={
                 <Col>
-                  <Header />
                   <ResumePage />
-                  <Footer />
                 </Col>
               }
             />
@@ -43,9 +40,7 @@ function App() {
               path="/about"
               element={
                 <Col>
-                  <Header />
                   <About />
-                  <Footer />
                 </Col>
               }
             />
@@ -54,9 +49,7 @@ function App() {
               path="/contact"
               element={
                 <Col>
-                  <Header />
                   <Contact />
-                  <Footer />
                 </Col>
               }            
             />
@@ -65,14 +58,12 @@ function App() {
               path="/movie-case-study"
               element={
                 <Col>
-                <Header />
                 <MovieCaseStudy />
-                <Footer />
                 </Col>
               }
             />
-
         </Routes>
+      <Footer />
       </Row>
     </HashRouter>
   );
