@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./App.css";
@@ -13,7 +13,7 @@ import MovieCaseStudy from "./components/movie-case-study";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Row>
         <Routes>
             <Route
@@ -74,7 +74,7 @@ function App() {
 
         </Routes>
       </Row>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
