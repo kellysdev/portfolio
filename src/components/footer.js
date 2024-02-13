@@ -11,17 +11,17 @@ const Footer = () => {
         <Row>
           <Col xs={1} className="ms-auto">
             <a href="https://github.com/lladysmall" target="_blank" rel="noreferrer">
-              <img src="github_icon.svg" alt="GitHub" className="social-icons" />
+              <h4><i className="bi bi-github text-white"></i></h4>
             </a>
           </Col>
           <Col xs={1} className="mx-1">
             <a href="https://www.linkedin.com/in/kellysdev/" target="_blank" rel="noreferrer">
-              <img src="linkedin_icon.svg" alt="LinkedIn" className="social-icons" />
+              <h4><i className="bi bi-linkedin text-white" ></i></h4>
             </a>
           </Col>
           <Col xs={1} className="me-auto">
             <a href="https://www.instagram.com/kellysdev/" target="_blank" rel="noreferrer">
-              <img src="instagram_icon.svg" alt="Instagram" className="social-icons" />
+              <h4><i className="bi bi-instagram text-white" ></i></h4>
             </a>
           </Col>
         </Row>

@@ -1,7 +1,3 @@
-html {
-  background-color: #FAF7F5;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,10 +12,11 @@ code {
     monospace;
 }
 
-#root {
+/* light mode colors: */
+/* #root {
   background-color: #FAF7F5;
   color: #393939;
-}
+} */
 
 .intro {
   height: 100vh;
@@ -27,6 +24,7 @@ code {
 
 .intro-title {
   margin-top: 50%;
+  color: #FAF7F5;
 }
 
 .hero {
@@ -58,11 +56,6 @@ code {
 .portrait {
   width: 250px;
   border-radius: 3px;
-}
-
-.social-icons {
-  width: 30px;
-  height: 30px;
 }
 
 .footer {
