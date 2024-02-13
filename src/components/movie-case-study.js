@@ -261,7 +261,7 @@ const MovieCaseStudy = () => {
 
 {/* credits */}
         <Row className="my-5" style={{textAlign: "center"}}>
-          <h1 className="popopolis-logo">PopOpolis</h1>
+          <h1 className="mb-3 popopolis-logo">PopOpolis</h1>
           <h3>Credits:</h3>
           <p>
             Lead Developer: Kelly Scott<br/>
