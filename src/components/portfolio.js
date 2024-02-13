@@ -18,7 +18,7 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Img variant="top" src="meet.png" alt="meet app screenshot" />
               <Card.Title className="my-2">
-                <h3>React PWA</h3>
+                <h3>Progressive Web Application</h3>
               </Card.Title>
               <Card.Subtitle className="my-2">Meet</Card.Subtitle>
               <Card.Text>
@@ -40,15 +40,16 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Img variant="top" src="popopolis.png" alt="movie app screenshot" />
               <Card.Title className="my-2">
-                <h3>MERN Crud App</h3>
+                <h3>CRUD Application and REST API</h3>
               </Card.Title>
               <Card.Subtitle className="my-2">PopOpolis</Card.Subtitle>
               <Card.Text>
                 A CRUD single-page movie application built with MERN, a REST API, Bootstrap, and hosted on Netlify.
               </Card.Text>
-              <Card.Link href="https://github.com/lladysmall/movie-client">See this project on GitHub</Card.Link><br/>
+              <Card.Link href="https://github.com/lladysmall/movie-client">See the client-side on GitHub</Card.Link><br/>
+              <Card.Link href="https://github.com/lladysmall/movie-api">See the server-side on GitHub</Card.Link><br/>
+              <Card.Link href="https://popopolis.netlify.app/">Explore the live app here!</Card.Link><br/><br/>
               <Card.Link href="#/movie-case-study">See the case study for this project</Card.Link><br/>
-              <Card.Link href="https://popopolis.netlify.app/">Explore the live app here!</Card.Link>
             </Card.Body>
             <Card.Footer>
               <Badge className="bg-secondary">MongoDB</Badge> <Badge className="bg-secondary">Express</Badge> <Badge className="bg-secondary">React</Badge> <Badge className="bg-secondary">Node</Badge> <Badge className="bg-secondary">react-router</Badge> <Badge className="bg-secondary">Parcel</Badge> <Badge className="bg-secondary">Bootstrap</Badge> <Badge className="bg-secondary">Netlify</Badge> <Badge className="bg-secondary">Heroku</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">HTML / JSX</Badge> <Badge className="bg-secondary">JavaScript</Badge>
@@ -61,13 +62,13 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Img variant="top" src="pokedex.png" alt="pokedex app screenshot" />
               <Card.Title className="my-2">
-                <h3>API Fetch App</h3>
+                <h3>API Fetch Application</h3>
               </Card.Title>
               <Card.Subtitle className="my-2">Pokedex</Card.Subtitle>
               <Card.Text>
                 Built with HTML, CSS, JavaScript, some JQuery, and Bootstrap. The app loads data from an external API, the PokeAPI, and enables the viewing of data points in detail.
               </Card.Text>
-              <Card.Link>See this project on GitHub</Card.Link>
+              <Card.Link href="https://github.com/lladysmall/Pokedex">See this project on GitHub</Card.Link>
             </Card.Body>
             <Card.Footer>
               <Badge className="bg-secondary">HTML</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">JavaScript</Badge> <Badge className="bg-secondary">jQuery</Badge> <Badge className="bg-secondary">Bootstrap</Badge>
