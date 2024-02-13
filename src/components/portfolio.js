@@ -47,7 +47,7 @@ const Portfolio = () => {
                 A CRUD single-page movie application built with MERN, a REST API, Bootstrap, and hosted on Netlify.
               </Card.Text>
               <Card.Link href="https://github.com/lladysmall/movie-client">See this project on GitHub</Card.Link><br/>
-              <Card.Link href="/movie-case-study">See the case study for this project</Card.Link><br/>
+              <Card.Link href="#/movie-case-study">See the case study for this project</Card.Link><br/>
               <Card.Link href="https://popopolis.netlify.app/">Explore the live app here!</Card.Link>
             </Card.Body>
             <Card.Footer>

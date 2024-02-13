@@ -83,7 +83,7 @@ const MovieCaseStudy = () => {
 {/* wireframes carousel */}
         <Row className="justify-content-xs-center my-5">
           <h4>Wireframes from the Project Brief</h4>
-          <Carousel data-bs-theme="dark">
+          <Carousel data-bs-theme="light">
 
             <Carousel.Item>
               <img className="carousel-img" src="wireframe-home.png" alt="wireframe for main view" />
@@ -217,7 +217,7 @@ const MovieCaseStudy = () => {
 {/* screenshots carousel */}
         <Row>
         <h4>Finished Product</h4>
-          <Carousel data-bs-theme="dark">
+          <Carousel data-bs-theme="light">
 
             <Carousel.Item>
               <img className="carousel-img" src="screenshot-home.png" alt="screenshot of main view" />
