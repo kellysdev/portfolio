@@ -12,6 +12,7 @@ import Footer from "./components/footer";
 import MovieCaseStudy from "./components/movie-case-study";
 
 function App() {
+
   return (
     <HashRouter>
       <Row>
