@@ -6,12 +6,13 @@ const Portfolio = () => {
   return (
     <>
       <Row className="mt-5">
-        <motion.h1 id="projects" className="my-4" initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
+        <motion.h1 id="projects" className="my-4" initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5}}>
           What I've been working on
         </motion.h1>
       </Row>
 
       <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
         <Col className="my-3">
           <Row>
             <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="meet.png" alt="meet app screenshot"/></Col>
@@ -26,7 +27,9 @@ const Portfolio = () => {
             </Col>
           </Row>
         </Col>
+        </motion.div>
 
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
         <Col className="my-3">
           <Row>
             <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot"/></Col>
@@ -42,7 +45,9 @@ const Portfolio = () => {
             </Col>
           </Row>
         </Col>
+        </motion.div>
 
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
         <Col className="my-3">
           <Row>
             <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="chat.png" alt="chat app screenshot"/></Col>
@@ -56,7 +61,9 @@ const Portfolio = () => {
             </Col>
           </Row>
         </Col>
+        </motion.div>
 
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
         <Col className="my-3">
           <Row>
             <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot"/></Col>
@@ -71,6 +78,7 @@ const Portfolio = () => {
             </Col>
           </Row>
         </Col>
+        </motion.div>
 
       </Row>
     </>
