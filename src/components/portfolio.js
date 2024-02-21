@@ -8,7 +8,7 @@ const Portfolio = () => {
     <>
       <Row>
         <h1 id="projects" className="my-4">
-          Portfolio
+          What I've been working on
         </h1>
       </Row>
 
