@@ -1,80 +1,75 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Badge from "react-bootstrap/Badge";
 import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
     <>
-      <Row>
-        <motion.h1 id="projects" className="my-4" initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5}}>
+      <Row className="mt-5">
+        <motion.h1 id="projects" className="my-4" initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
           What I've been working on
         </motion.h1>
       </Row>
 
-      <Row xs={1} sm={2} lg={3} xl={4} className="mb-5 g-3" >
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Img variant="top" src="meet.png" alt="meet app screenshot" />
-              <Card.Title className="my-2">
-                <h3>Progressive Web Application</h3>
-              </Card.Title>
-              <Card.Subtitle className="my-2">Meet</Card.Subtitle>
-              <Card.Text>
-                A serverless, progressive web application built with React using a test-driven development technique. 
-                Fetches upcoming events from the Google Calendar API and utilizes OAuth2 authentication.
-                Data visualization enabled by use of Rechart and the app itself is hosted on GitHub pages.
-              </Card.Text>
-              <Card.Link href="https://github.com/lladysmall/meet">See this project on GitHub</Card.Link><br/>
-              <Card.Link href="https://lladysmall.github.io/meet/">Explore the live app here!</Card.Link>
-            </Card.Body>
-            <Card.Footer>
-              <Badge className="bg-secondary">AWS</Badge> <Badge className="bg-secondary">OAuth2</Badge> <Badge className="bg-secondary">Node</Badge> <Badge className="bg-secondary">React</Badge> <Badge className="bg-secondary">Jest / React Testing Library</Badge> <Badge className="bg-secondary">cucumber-jest</Badge> <Badge className="bg-secondary">Atatus</Badge> <Badge className="bg-secondary">Lighthouse</Badge> <Badge className="bg-secondary">Recharts</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">HTML / JSX</Badge> <Badge className="bg-secondary">JavaScript</Badge>
-            </Card.Footer>
-          </Card>
+      <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
+        <Col className="my-3">
+          <Row>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="meet.png" alt="meet app screenshot"/></Col>
+            <Col>
+              <h3>Progressive Web App</h3>
+              <h6 className="technologies text-secondary">React | Serverless | AWS Lambda</h6>
+              <p>Built with React using a test-driven development technique, fetches upcoming events from the Google Calendar API, utilizes OAuth2 authentication, and features data visualization enabled by use of Rechart.</p>
+              <div className="project-links d-flex">
+                <a href="https://github.com/lladysmall/meet">GitHub Repo</a>
+                <a href="https://lladysmall.github.io/meet/">Live App</a>
+              </div>
+            </Col>
+          </Row>
         </Col>
 
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Img variant="top" src="popopolis.png" alt="movie app screenshot" />
-              <Card.Title className="my-2">
-                <h3>CRUD Application and REST API</h3>
-              </Card.Title>
-              <Card.Subtitle className="my-2">PopOpolis</Card.Subtitle>
-              <Card.Text>
-                A CRUD single-page movie application built with MERN, a REST API, Bootstrap, and hosted on Netlify.
-              </Card.Text>
-              <Card.Link href="https://github.com/lladysmall/movie-client">See the client-side on GitHub</Card.Link><br/>
-              <Card.Link href="https://github.com/lladysmall/movie-api">See the server-side on GitHub</Card.Link><br/>
-              <Card.Link href="https://popopolis.netlify.app/">Explore the live app here!</Card.Link><br/><br/>
-              <Card.Link href="#/movie-case-study">See the case study for this project</Card.Link><br/>
-            </Card.Body>
-            <Card.Footer>
-              <Badge className="bg-secondary">MongoDB</Badge> <Badge className="bg-secondary">Express</Badge> <Badge className="bg-secondary">React</Badge> <Badge className="bg-secondary">Node</Badge> <Badge className="bg-secondary">react-router</Badge> <Badge className="bg-secondary">Parcel</Badge> <Badge className="bg-secondary">Bootstrap</Badge> <Badge className="bg-secondary">Netlify</Badge> <Badge className="bg-secondary">Heroku</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">HTML / JSX</Badge> <Badge className="bg-secondary">JavaScript</Badge>
-            </Card.Footer>
-          </Card>
+        <Col className="my-3">
+          <Row>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot"/></Col>
+            <Col>
+              <h3>CRUD Single-Page Web App</h3>
+              <h6 className="technologies text-secondary">MERN | API Development | Bootstrap</h6>
+              <p>The server-side is built with Node, Express and MongoDB, is hosted on Heroku, and utilizes JWT authentication.  The client-side is built with React, Bootstrap, react-router, and Parcel.</p>
+              <div className="project-links d-flex">
+                <a href="https://github.com/lladysmall/movie-client">GitHub Repo</a>
+                <a href="https://popopolis.netlify.app/">Live App</a>
+                <a href="#/movie-case-study">Case Study</a>
+              </div>
+            </Col>
+          </Row>
         </Col>
 
-        <Col>
-          <Card>
-            <Card.Body>
-              <Card.Img variant="top" src="pokedex.png" alt="pokedex app screenshot" />
-              <Card.Title className="my-2">
-                <h3>API Fetch Application</h3>
-              </Card.Title>
-              <Card.Subtitle className="my-2">Pokedex</Card.Subtitle>
-              <Card.Text>
-                Built with HTML, CSS, JavaScript, some JQuery, and Bootstrap. The app loads data from an external API, the PokeAPI, and enables the viewing of data points in detail.
-              </Card.Text>
-              <Card.Link href="https://github.com/lladysmall/Pokedex">See this project on GitHub</Card.Link>
-            </Card.Body>
-            <Card.Footer>
-              <Badge className="bg-secondary">HTML</Badge> <Badge className="bg-secondary">CSS</Badge> <Badge className="bg-secondary">JavaScript</Badge> <Badge className="bg-secondary">jQuery</Badge> <Badge className="bg-secondary">Bootstrap</Badge>
-            </Card.Footer>
-          </Card>
+        <Col className="my-3">
+          <Row>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="chat.png" alt="chat app screenshot"/></Col>
+            <Col>
+              <h3>React Native Chat App</h3>
+              <h6 className="technologies text-secondary">Google Firebase | Expo | GiftedChat</h6>
+              <p>A cross-platform chat application that allows users to share images and their locationas well as to choose the background color for the chat screen.</p>
+              <div className="project-links d-flex">
+                <a href="https://github.com/lladysmall/chat-app">GitHub Repo</a>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+
+        <Col className="my-3">
+          <Row>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot"/></Col>
+            <Col>
+              <h3>API Fetch App</h3>
+              <h6 className="technologies text-secondary">JavaScript | JQuery | Bootstrap</h6>
+              <p>Loads data from an external API, the PokeAPI, and enables the viewing of data points in detail.</p>
+              <div className="project-links d-flex">
+                <a href="https://github.com/lladysmall/Pokedex">GitHub Repo</a>
+                <a href="https://lladysmall.github.io/Pokedex/">Live App</a>
+              </div>
+            </Col>
+          </Row>
         </Col>
 
       </Row>
