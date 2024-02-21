@@ -143,7 +143,7 @@ const ResumePage = () => {
               <p>Sudwerk Brewing Co.</p>
               <p>September 2015 - February 2018</p>
             </Row>
-            <Row><p>Perform brewing and cellaring duties from raw material intake through packaging while managing a team to ensure tha the production plan was executed every week.</p></Row>
+            <Row><p>Perform brewing and cellaring duties from raw material intake through packaging while managing a team to ensure that the production plan was executed every week.</p></Row>
           </Col>
         </Row>       
 
