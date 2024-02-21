@@ -1,12 +1,14 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button"
+import { motion } from "framer-motion";
 
 const ResumePage = () => {
   return (
     <Row>
       <Col>
-
+      
+      <motion.div initial={{opacity:0.3}} animate={{opacity:1}}>
 {/* header */}
         <Row className="mt-5">
           <Col sm={6}>
@@ -145,7 +147,8 @@ const ResumePage = () => {
             </Row>
             <Row><p>Perform brewing and cellaring duties from raw material intake through packaging while managing a team to ensure that the production plan was executed every week.</p></Row>
           </Col>
-        </Row>       
+        </Row>  
+      </motion.div>     
 
       </Col>
     </Row>
