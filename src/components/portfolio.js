@@ -2,14 +2,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Badge from "react-bootstrap/Badge";
+import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
     <>
       <Row>
-        <h1 id="projects" className="my-4">
+        <motion.h1 id="projects" className="my-4" initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5}}>
           What I've been working on
-        </h1>
+        </motion.h1>
       </Row>
 
       <Row xs={1} sm={2} lg={3} xl={4} className="mb-5 g-3" >
