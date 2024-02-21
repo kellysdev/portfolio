@@ -23,6 +23,14 @@ function App() {
               element={
                 <Col className="home">
                   <Intro />
+                </Col>
+              }
+            />
+
+            <Route
+              path="/projects"
+              element={
+                <Col className="projects">
                   <Portfolio />
                 </Col>
               }
