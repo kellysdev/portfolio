@@ -18,6 +18,7 @@ code {
   color: #393939;
 } */
 
+/* HOME PAGE */
 .intro {
   height: 100vh;
 }
@@ -29,6 +30,7 @@ code {
   font-weight: 700;
 }
 
+/* PORTFOLIO */
 .portfolio-items-container {
   flex-direction: column;
 }
@@ -42,6 +44,7 @@ code {
   justify-content: space-evenly;
 }
 
+/* CASE STUDY */
 .hero {
   background-image: url("../public/bw-theater.jpg");
   background-position: center;
@@ -68,20 +71,24 @@ code {
   text-align: center;
 }
 
+/* RESUME */
 .resume-contact {
   text-align: right;
 }
 
+/* ABOUT */
 .portrait {
   width: 250px;
   border-radius: 3px;
 }
 
+/* FOOTER */
 .footer {
   text-align: center;
   width: 100%;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 990px) {
   .intro-title {
     margin-top: 30%;
