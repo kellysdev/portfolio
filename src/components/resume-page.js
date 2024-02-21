@@ -7,12 +7,12 @@ const ResumePage = () => {
   return (
     <Row>
       <Col>
-      
+
       <motion.div initial={{opacity:0.3}} animate={{opacity:1}}>
 {/* header */}
         <Row className="mt-5">
           <Col sm={6}>
-              <h1>Full-Stack Web Developer</h1>
+              <motion.h1 initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5}}>Full-Stack Web Developer</motion.h1>
               <Button className="download-button" type="button" variant="outline-info" style={{width: 200}}
               href={require("../Scott-Kelly-Resume.pdf")} download="Scott-Kelly-Resume.pdf"
               ><i className="bi bi-download"></i> Download Resume</Button>
