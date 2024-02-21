@@ -12,7 +12,7 @@ const Portfolio = () => {
         </h1>
       </Row>
 
-      <Row xs={1} sm={2} lg={3} xl={4} className="mb-5" >
+      <Row xs={1} sm={2} lg={3} xl={4} className="mb-5 g-3" >
         <Col>
           <Card>
             <Card.Body>
