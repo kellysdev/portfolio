@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
 
 const Contact = () => {
 
@@ -25,7 +26,7 @@ const Contact = () => {
 
   return (
     <Row className="my-5">
-      <h1>Contact Me</h1>
+      <motion.h1 initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5}}>Contact Me</motion.h1>
       <Form ref={form} onSubmit={handleSubmit}>
         <Form.Group>
           <Form.Label className="mt-3">Name</Form.Label>
