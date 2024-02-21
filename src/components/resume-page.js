@@ -11,7 +11,7 @@ const ResumePage = () => {
         <Row className="mt-5">
           <Col sm={6}>
               <h1>Full-Stack Web Developer</h1>
-              <Button className="download-button" type="button" variant="outline-light" style={{width: 200}}
+              <Button className="download-button" type="button" variant="outline-info" style={{width: 200}}
               href={require("../Scott-Kelly-Resume.pdf")} download="Scott-Kelly-Resume.pdf"
               ><i className="bi bi-download"></i> Download Resume</Button>
           </Col>
