@@ -29,6 +29,19 @@ code {
   font-weight: 700;
 }
 
+.portfolio-items-container {
+  flex-direction: column;
+}
+
+.portfolio-img {
+  border-radius: 20px;
+  width: 100px;
+}
+
+.project-links {
+  justify-content: space-evenly;
+}
+
 .hero {
   background-image: url("../public/bw-theater.jpg");
   background-position: center;
