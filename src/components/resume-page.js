@@ -10,7 +10,7 @@ const ResumePage = () => {
 {/* header */}
         <Row className="mt-5">
           <Col sm={6}>
-              <h2>Full-Stack Web Developer</h2>
+              <h1>Full-Stack Web Developer</h1>
               <Button className="download-button" type="button" variant="outline-light" style={{width: 200}}
               href={require("../Scott-Kelly-Resume.pdf")} download="Scott-Kelly-Resume.pdf"
               ><i className="bi bi-download"></i> Download Resume</Button>
@@ -21,7 +21,7 @@ const ResumePage = () => {
         </Row>
 
 {/* summary */}
-        <Row className="mt-4">
+        <Row className="mt-5">
             <h3>Summary</h3>
             <p>
               Web developer passionate about accessibility and responsiveness.  With a background in research and brewing, is adept at managing priorities and problem solving.
@@ -30,7 +30,7 @@ const ResumePage = () => {
         </Row>
 
 {/* skills */}
-        <Row>
+        <Row className="mt-3">
           <h3>Skills</h3>
           <Col>
             <ul>
@@ -117,7 +117,7 @@ const ResumePage = () => {
           </Col>
         </Row>
 {/* work experience */}
-        <Row className="mt-4 d-flex">
+        <Row className="mt-5 d-flex">
           <h3>Work Experience</h3>
           <Col className="mt-1">
             <Row>
