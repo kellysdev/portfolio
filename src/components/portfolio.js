@@ -15,7 +15,7 @@ const Portfolio = () => {
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
         <Col className="my-3">
           <Row>
-            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="meet.png" alt="meet app screenshot"/></Col>
+            <Col xs={1} sm={3} lg={4}><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
             <Col>
               <h3>Progressive Web App</h3>
               <h6 className="technologies text-secondary">React | Serverless | AWS Lambda</h6>
@@ -32,7 +32,7 @@ const Portfolio = () => {
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
         <Col className="my-3">
           <Row>
-            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot"/></Col>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot" className="portfolio-img"/></Col>
             <Col>
               <h3>CRUD Single-Page Web App</h3>
               <h6 className="technologies text-secondary">MERN | API Development | Bootstrap</h6>
@@ -50,7 +50,7 @@ const Portfolio = () => {
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
         <Col className="my-3">
           <Row>
-            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="chat.png" alt="chat app screenshot"/></Col>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="chat.png" alt="chat app screenshot" className="portfolio-img"/></Col>
             <Col>
               <h3>React Native Chat App</h3>
               <h6 className="technologies text-secondary">Google Firebase | Expo | GiftedChat</h6>
@@ -66,7 +66,7 @@ const Portfolio = () => {
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
         <Col className="my-3">
           <Row>
-            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot"/></Col>
+            <Col xs={1} sm={3} lg={4} className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot" className="portfolio-img"/></Col>
             <Col>
               <h3>API Fetch App</h3>
               <h6 className="technologies text-secondary">JavaScript | JQuery | Bootstrap</h6>

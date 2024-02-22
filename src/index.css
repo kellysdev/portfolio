@@ -37,7 +37,7 @@ code {
 
 .portfolio-img {
   border-radius: 20px;
-  width: 100px;
+  max-width: 400px;
 }
 
 .project-links {
