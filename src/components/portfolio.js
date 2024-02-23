@@ -19,7 +19,7 @@ const Portfolio = () => {
             <Col lg={8}>
               <h3>Progressive Web App</h3>
               <h6 className="technologies text-secondary">React | Serverless | AWS Lambda</h6>
-              <p>Built with React using a test-driven development technique, fetches upcoming events from the Google Calendar API, utilizes OAuth2 authentication, and features data visualization enabled by use of Rechart.</p>
+              <p>Built using a test-driven development technique, fetches upcoming events from the Google Calendar API, utilizes OAuth2 authentication, and features data visualization enabled by the Recharts library.</p>
               <div className="project-links d-flex">
                 <a href="https://github.com/lladysmall/meet" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <a href="https://lladysmall.github.io/meet/" target="_blank" rel="noreferrer">Live App</a>
@@ -36,7 +36,8 @@ const Portfolio = () => {
             <Col lg={8}>
               <h3>CRUD Single-Page Web App</h3>
               <h6 className="technologies text-secondary">MERN | API Development | Bootstrap</h6>
-              <p>The server-side is built with Node, Express and MongoDB, is hosted on Heroku, and utilizes JWT authentication.  The client-side is built with React, Bootstrap, react-router, and Parcel.</p>
+              <p>Users can create an account, view movie information, curate a list of their favorite movies, and update or delete their account.  
+                The server-side utilizes JWT authentication and is hosted on Heroku.  The client-side also uses react-router and Parcel and is hosted on Netlify.</p>
               <div className="project-links d-flex">
                 <a href="https://github.com/lladysmall/movie-client" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <a href="https://popopolis.netlify.app/" target="_blank" rel="noreferrer">Live App</a>
