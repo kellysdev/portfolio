@@ -74,7 +74,7 @@ function App() {
             />
 
             <Route
-              path="/movie-case-study"
+              path="/meet-case-study"
               element={
                 <Col>
                 <MeetCaseStudy />
