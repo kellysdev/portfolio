@@ -23,6 +23,7 @@ const Portfolio = () => {
               <div className="project-links d-flex">
                 <a href="https://github.com/lladysmall/meet" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <a href="https://lladysmall.github.io/meet/" target="_blank" rel="noreferrer">Live App</a>
+                <a href="#/meet-case-study">Case Study</a>
               </div>
             </Col>
           </Row>
