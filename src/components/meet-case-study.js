@@ -58,7 +58,7 @@ const MeetCaseStudy = () => {
             The code that will cause the test to pass is then written and tested.  This is repeated for each feature and scenario.
             </p>
             <p>Example:<br />Feature 1: Filter Evens by City, Scenario 1: When a user hasn't searched for a city, show upcoming events from all cities.</p>
-            <img src="" alt="test-driven development example screenshot" />
+            <img src="tdd-example.png" alt="test-driven development example screenshot" className="meet-cs-screenshot" />
             <p>
               The Behavior-Driven Development technique was also used in building this application.  
               Behavior-Driven Development focuses on test cases that are easy for developers and non-developers to understand.  
@@ -66,7 +66,7 @@ const MeetCaseStudy = () => {
               This is used to outline the tests so that they are easier to follow.
             </p>
             <p>Example:<br />Gherkin: Given the user hasn’t searched for any city, when the user opens the app, then the user should see the list of all upcoming events.</p>
-            <img src="" alt="behavior-driven development example screenshot" />
+            <img src="bdd-example.png" alt="behavior-driven development example screenshot" className="meet-cs-screenshot" />
           </Col>
         </Row>
 
@@ -77,25 +77,25 @@ const MeetCaseStudy = () => {
           <Col>
             <h3>Technology</h3>
             <Row>
-              <Col><p>Serverless</p></Col>
+              <Col xs={2}><p>Serverless</p></Col>
               <Col>
                 <p>While called a serverless application, there is still a server – it’s just managed by Amazon Web Services (AWS).  AWS Lambda was the serverless platform used for authentication in addition to Google OAuth.</p>
               </Col>
             </Row>
             <Row>
-              <Col><p>Google Open Authorization (OAuth)</p></Col>
+              <Col xs={2}><p>Google Open Authorization (OAuth)</p></Col>
               <Col>
                 <p>A framework that allows 3rd party applications to authenticate clients without them having to share their credentials directly with the server.  In this case, the user can sign in with their Google credentials which, with the help of the serverless functions on AWS Lambda, grants the user access to the application.</p>
               </Col>
             </Row>
             <Row>
-              <Col><p>Jest and React Testing Library</p></Col>
+              <Col xs={2}><p>Jest and React Testing Library</p></Col>
               <Col>
                 <p>Jest is an assertion framework used to test code.  React Testing Library is used with Jest to test React components.</p>
               </Col>
             </Row>
             <Row>
-              <Col><p>Recharts</p></Col>
+              <Col xs={2}><p>Recharts</p></Col>
               <Col><p>A React library for data visualization.</p></Col>
             </Row>
           </Col>
@@ -104,8 +104,9 @@ const MeetCaseStudy = () => {
         <Row className="mini-dividers bg-warning py-1"></Row>
 
 {/* troubleshooting */}
-        <Row>
+        <Row className="my-5">
           <Col>
+          <h3>Troubleshooting</h3>
             <p>Error:<br/>
               After implementing the Google Calendar API, I got an error in the console that the events object was undefined.<br /><br />
               Solution:<br />
@@ -117,17 +118,23 @@ const MeetCaseStudy = () => {
         <Row className=" bg-warning py-1"></Row>
 
 {/* final product */}
-        <Row>
-          <h3>Final Product</h3>
-          <p>
-            I was provided with some very simple CSS styling from the CareerFoundry course which centered the content and added the blue color when hovering over items in the suggestions list.
-            This blue color became the accent color for the app and I chose a complementary orange color for the background.<br />
-            
-            Since the app is intended to be downloaded to a mobile device homescreen, it was layed out in a way that would look good on mobile as well as on a desktop screen and was made to be responsive.<br />
-            I also implemented an animation in the logo for a more dynamic environment.<br /><br />
-            
-            I am quite please with how the app turned out.  
-          </p>
+        <Row className="my-5">
+          <Col className="meet-logo">
+            <p className="meet-logo-meet">meet</p>
+            <p className="meet-logo-subtitle">& learn to code;</p>
+          </Col>
+          <Col>
+            <h3>Final Product</h3>
+            <p>
+              I was provided with some very simple CSS styling from the CareerFoundry course which centered the content and added the blue color when hovering over items in the suggestions list.
+              This blue color became the accent color for the app and I chose a complementary orange color for the background.<br /><br />
+              
+              Since the app is intended to be downloaded to a mobile device homescreen, it was layed out in a way that would look good on mobile as well as on a desktop screen and was made to be responsive.<br />
+              I also implemented an animation in the logo for a more dynamic environment.<br /><br />
+              
+              I am quite please with how the app turned out.  
+            </p>
+          </Col>
         </Row>
         
         <Row className="bg-warning py-1"></Row>
@@ -135,20 +142,14 @@ const MeetCaseStudy = () => {
 {/* credits */}
         <Row className="my-5" style={{textAlign: "center"}}>
           <Col>
-            <Row className="meet-logo">
-              <p className="meet-logo-meet">meet</p>
-              <p className="meet-logo-subtitle">& learn to code;</p>
-            </Row>
-            <Row>
-              <h3>Credits</h3>
-              <p>
-                Lead Developer: Kelly Scott<br />
-                Mentor: Vini De Antoni<br />
-                Tutor: Jason Early
-              </p>
-              <a href="https://github.com/lladysmall/meet">GitHub Repository</a>
-              <a href="https://lladysmall.github.io/meet/">App Hosted on GitHub Pages</a>
-            </Row>
+            <h3>Credits</h3>
+            <p>
+              Lead Developer: Kelly Scott<br />
+              Mentor: Vini De Antoni<br />
+              Tutor: Jason Early
+            </p>
+            <a href="https://github.com/lladysmall/meet">GitHub Repository</a>
+            <a href="https://lladysmall.github.io/meet/">App Hosted on GitHub Pages</a>
           </Col>
         </Row>
 
