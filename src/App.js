@@ -10,6 +10,7 @@ import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import MovieCaseStudy from "./components/movie-case-study";
+import MeetCaseStudy from "./components/meet-case-study";
 
 function App() {
 
@@ -71,6 +72,16 @@ function App() {
                 </Col>
               }
             />
+
+            <Route
+              path="/movie-case-study"
+              element={
+                <Col>
+                <MeetCaseStudy />
+                </Col>
+              }
+            />
+
         </Routes>
       <Footer />
       </Row>
