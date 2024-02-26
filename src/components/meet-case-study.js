@@ -73,29 +73,29 @@ const MeetCaseStudy = () => {
         <Row className="mini-dividers bg-warning py-1"></Row>
 
 {/* technologies */}
-        <Row>
+        <Row className="my-5 ms-5">
           <Col>
             <h3>Technology</h3>
             <Row>
-              <Col xs={2}><p>Serverless</p></Col>
+              <Col sm={2}><p>Serverless</p></Col>
               <Col>
                 <p>While called a serverless application, there is still a server – it’s just managed by Amazon Web Services (AWS).  AWS Lambda was the serverless platform used for authentication in addition to Google OAuth.</p>
               </Col>
             </Row>
             <Row>
-              <Col xs={2}><p>Google Open Authorization (OAuth)</p></Col>
+              <Col sm={2}><p>Google Open Authorization (OAuth)</p></Col>
               <Col>
                 <p>A framework that allows 3rd party applications to authenticate clients without them having to share their credentials directly with the server.  In this case, the user can sign in with their Google credentials which, with the help of the serverless functions on AWS Lambda, grants the user access to the application.</p>
               </Col>
             </Row>
             <Row>
-              <Col xs={2}><p>Jest and React Testing Library</p></Col>
+              <Col sm={2}><p>Jest and React Testing Library</p></Col>
               <Col>
                 <p>Jest is an assertion framework used to test code.  React Testing Library is used with Jest to test React components.</p>
               </Col>
             </Row>
             <Row>
-              <Col xs={2}><p>Recharts</p></Col>
+              <Col sm={2}><p>Recharts</p></Col>
               <Col><p>A React library for data visualization.</p></Col>
             </Row>
           </Col>
@@ -148,7 +148,7 @@ const MeetCaseStudy = () => {
               Mentor: Vini De Antoni<br />
               Tutor: Jason Early
             </p>
-            <a href="https://github.com/lladysmall/meet">GitHub Repository</a>
+            <a href="https://github.com/lladysmall/meet">GitHub Repository</a><br />
             <a href="https://lladysmall.github.io/meet/">App Hosted on GitHub Pages</a>
           </Col>
         </Row>
