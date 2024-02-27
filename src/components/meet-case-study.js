@@ -57,16 +57,17 @@ const MeetCaseStudy = () => {
             The required features of the app are broken down into scenarios and tests are written for each scenario.  
             The code that will cause the test to pass is then written and tested.  This is repeated for each feature and scenario.
             </p>
-            <p>Example:<br />Feature 1: Filter Evens by City, Scenario 1: When a user hasn't searched for a city, show upcoming events from all cities.</p>
-            <img src="tdd-example.png" alt="test-driven development example screenshot" className="meet-cs-screenshot" />
+            <p className="ms-5">Example:<br />Feature 1: Filter Evens by City<br />Scenario 1: When a user hasn't searched for a city, show upcoming events from all cities.</p>
+            <img src="tdd-example.png" alt="test-driven development example screenshot" className="meet-cs-screenshot ms-5" />
             <p className="mt-3">
               The Behavior-Driven Development technique was also used in building this application.  
               Behavior-Driven Development focuses on test cases that are easy for developers and non-developers to understand.  
               The required features and scenarios are further broken down into Gherkin syntax using Given, When, and Then.  
               This is used to outline the tests so that they are easier to follow.
             </p>
-            <p>Example:<br />Gherkin: Given the user hasn’t searched for any city, when the user opens the app, then the user should see the list of all upcoming events.</p>
-            <img src="bdd-example.png" alt="behavior-driven development example screenshot" className="meet-cs-screenshot" />
+            <p className="ms-5">Example:<br />Gherkin:<br />
+            Given the user hasn’t searched for any city,<br /> When the user opens the app,<br />Then the user should see the list of all upcoming events.</p>
+            <img src="bdd-example.png" alt="behavior-driven development example screenshot" className="meet-cs-screenshot ms-5" />
           </Col>
         </Row>
 
@@ -77,25 +78,25 @@ const MeetCaseStudy = () => {
           <Col>
             <h3>Technology</h3>
             <Row>
-              <Col sm={2}><p>Serverless</p></Col>
+              <Col sm={2} md={4}><p><b>Serverless</b></p></Col>
               <Col>
                 <p>While called a serverless application, there is still a server – it’s just managed by Amazon Web Services (AWS).  AWS Lambda was the serverless platform used for authentication in addition to Google OAuth.</p>
               </Col>
             </Row>
             <Row>
-              <Col sm={2}><p>Google Open Authorization (OAuth)</p></Col>
+              <Col sm={2} md={4}><p><b>Google Open Authorization (OAuth)</b></p></Col>
               <Col>
                 <p>A framework that allows 3rd party applications to authenticate clients without them having to share their credentials directly with the server.  In this case, the user can sign in with their Google credentials which, with the help of the serverless functions on AWS Lambda, grants the user access to the application.</p>
               </Col>
             </Row>
             <Row>
-              <Col sm={2}><p>Jest and React Testing Library</p></Col>
+              <Col sm={2} md={4}><p><b>Jest and React Testing Library</b></p></Col>
               <Col>
                 <p>Jest is an assertion framework used to test code.  React Testing Library is used with Jest to test React components.</p>
               </Col>
             </Row>
             <Row>
-              <Col sm={2}><p>Recharts</p></Col>
+              <Col sm={2} md={4}><p><b>Recharts</b></p></Col>
               <Col><p>A React library for data visualization.</p></Col>
             </Row>
           </Col>
@@ -130,9 +131,7 @@ const MeetCaseStudy = () => {
               This blue color became the accent color for the app and I chose a complementary orange color for the background.<br /><br />
               
               Since the app is intended to be downloaded to a mobile device homescreen, it was layed out in a way that would look good on mobile as well as on a desktop screen and was made to be responsive.<br />
-              I also implemented an animation in the logo for a more dynamic environment.<br /><br />
-              
-              I am quite please with how the app turned out.  
+              I also implemented an animation in the logo for a more dynamic environment.
             </p>
           </Col>
         </Row>
