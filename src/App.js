@@ -9,9 +9,9 @@ import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
-import MovieCaseStudy from "./components/movie-case-study";
-import MeetCaseStudy from "./components/meet-case-study";
-import ChatCaseStudy from "./components/chat-case-study";
+import MovieCaseStudy from "./components/case-studies/movie-case-study";
+import MeetCaseStudy from "./components/case-studies/meet-case-study";
+import ChatCaseStudy from "./components/case-studies/chat-case-study";
 
 function App() {
 
