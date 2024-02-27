@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./App.css";
+import "./components/case-studies/case-studies.css";
 import Header from "./components/header";
 import Intro from "./components/intro";
 import ResumePage from "./components/resume-page";
