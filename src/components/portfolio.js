@@ -18,7 +18,7 @@ const Portfolio = () => {
             <Col><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
             <Col lg={8}>
               <h3>Progressive Web App</h3>
-              <h6 className="technologies text-secondary">React Testing Library | Atatus | AWS Lambda</h6>
+              <h6 className="technologies text-secondary">React Testing Library | OAuth2 | AWS Lambda</h6>
               <p>Built using a test-driven development technique, fetches upcoming events from the Google Calendar API, utilizes OAuth2 authentication, and features data visualization enabled by the Recharts library.</p>
               <div className="project-links d-flex">
                 <a href="https://github.com/lladysmall/meet" target="_blank" rel="noreferrer">GitHub Repo</a>
