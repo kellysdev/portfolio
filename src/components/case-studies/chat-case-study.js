@@ -111,8 +111,19 @@ const ChatCaseStudy = () => {
         </Row>
 
 {/* final product */}
-        <Row className="my-5 credits">
+        <Row className="mx-auto">
           <h3>Final Product</h3>
+          <Col>
+            <img className="final-chat-screenshot" src="chat-start.png" alt="chat app screenshot of start screen"/>
+          </Col>
+          <Col>
+            <img className="final-chat-screenshot" src="chat-chat.png" alt="chat app screenshot of chat screen"/>
+          </Col>
+        </Row>
+
+{/* credits */}
+        <Row className="my-5 credits">
+          <h3>Credits</h3>
           <p>
               Lead Developer: Kelly Scott<br />
               Mentor: Vini De Antoni<br />
