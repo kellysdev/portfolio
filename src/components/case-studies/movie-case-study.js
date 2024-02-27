@@ -260,7 +260,7 @@ const MovieCaseStudy = () => {
         <Row className="bg-warning py-1 mt-5"></Row>
 
 {/* credits */}
-        <Row className="my-5" style={{textAlign: "center"}}>
+        <Row className="my-5 credits">
           <h1 className="mb-3 popopolis-logo">PopOpolis</h1>
           <h3>Credits:</h3>
           <p>

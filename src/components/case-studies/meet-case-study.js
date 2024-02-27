@@ -139,7 +139,7 @@ const MeetCaseStudy = () => {
         <Row className="meet-dividers py-1"></Row>
 
 {/* credits */}
-        <Row className="my-5" style={{textAlign: "center"}}>
+        <Row className="my-5 credits">
           <Col>
             <h3>Credits</h3>
             <p>
