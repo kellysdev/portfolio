@@ -83,3 +83,15 @@ code {
 .carousel-item {
   text-align: center;
 }
+
+/* CHAT CASE STUDY */
+
+.chat-hero {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,64,86,1) 56%, rgba(138,149,165,1) 100%);
+}
+
+.built-with-firebase {
+  width: 30%;
+  margin-inline: auto;
+}
