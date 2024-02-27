@@ -8,13 +8,13 @@ const ChatCaseStudy = () => {
 
 {/* hero */}
       <Row>
-          <header className="meet-hero has-bg-img" style={{ paddingLeft: 0 }}>
+          <header className="chat-hero has-bg-img" style={{ paddingLeft: 0 }}>
             <div className="p-3 text-center bg-image">
               <div className="mask">
                 <div className="d-flex justify-content-center align-items-center h-100">
                   <div className="text-white">
-                    <h1 className="mt-5 text-dark">Case Study</h1>
-                    <h4 className="mb-5 text-dark">Serverless Progressive Web Application</h4>
+                    <h1 className="mt-5 text-light">Case Study</h1>
+                    <h4 className="mb-5 text-light">React Native Chat Application</h4>
                   </div>
                 </div>
               </div>
