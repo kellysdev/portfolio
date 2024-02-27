@@ -56,7 +56,7 @@ const Portfolio = () => {
             <Col lg={8}>
               <h3>React Native Chat App</h3>
               <h6 className="technologies text-secondary">Google Firebase | Expo | GiftedChat</h6>
-              <p>A cross-platform chat application that allows users to share images and their locationas well as to choose the background color for the chat screen.</p>
+              <p>A cross-platform chat application that allows users to share images and their location as well as to choose the background color for the chat screen.</p>
               <div className="project-links d-flex">
                 <a href="https://github.com/lladysmall/chat-app" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <a href="#/chat-case-study">Case Study</a>
