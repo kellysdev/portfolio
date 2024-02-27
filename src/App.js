@@ -11,6 +11,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import MovieCaseStudy from "./components/movie-case-study";
 import MeetCaseStudy from "./components/meet-case-study";
+import ChatCaseStudy from "./components/chat-case-study";
 
 function App() {
 
@@ -65,6 +66,15 @@ function App() {
             />
 
             <Route
+              path="/meet-case-study"
+              element={
+                <Col>
+                <MeetCaseStudy />
+                </Col>
+              }
+            />
+
+            <Route
               path="/movie-case-study"
               element={
                 <Col>
@@ -74,10 +84,10 @@ function App() {
             />
 
             <Route
-              path="/meet-case-study"
+              path="/chat-case-study"
               element={
                 <Col>
-                <MeetCaseStudy />
+                <ChatCaseStudy />
                 </Col>
               }
             />
