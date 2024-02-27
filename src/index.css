@@ -44,7 +44,51 @@ code {
   justify-content: space-evenly;
 }
 
-/* CASE STUDY */
+/* MEET CASE STUDY */
+.meet-hero {
+  background-image: url("https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: right;
+}
+
+.meet-cs-screenshot {
+  justify-items: center;
+  width: 80%;
+}
+
+.meet-dividers {
+  background-color: rgb(158, 198, 214);
+  margin-inline: 20%!important;
+}
+
+.meet-logo-meet {
+  font-size: 75px;
+  font-weight: 600;
+  -webkit-text-stroke: 2px white;
+  color: black;
+  text-shadow: 
+    3px 3px 0 white,
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.meet-logo-subtitle {
+  overflow: hidden;
+  border-right: .15em solid rgb(142, 178, 177);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(16, end),
+    blink-caret .75s step-end infinite;
+}
+
+.meet-hero-credit {
+  font-size: smaller;
+}
+
+/* MOVIE CASE STUDY */
 .hero {
   background-image: url("../public/bw-theater.jpg");
   background-position: center;

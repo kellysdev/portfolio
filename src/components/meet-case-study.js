@@ -13,8 +13,8 @@ const MeetCaseStudy = () => {
               <div className="mask">
                 <div className="d-flex justify-content-center align-items-center h-100">
                   <div className="text-white">
-                    <h1 className="mt-5 text-warning popopolis-logo">Case Study</h1>
-                    <h4 className="mb-5 text-warning popopolis-logo">Serverless Progressive Web Application</h4>
+                    <h1 className="mt-5 text-dark">Case Study</h1>
+                    <h4 className="mb-5 text-dark">Serverless Progressive Web Application</h4>
                   </div>
                 </div>
               </div>
@@ -46,11 +46,11 @@ const MeetCaseStudy = () => {
           </Col>
         </Row>
 
-        <Row className=" bg-warning py-1"></Row>
+        <Row className="meet-dividers py-1"></Row>
 
 {/* development */}
         <Row className="my-5">
-          <Col>
+          <Col className="d-flex-columns">
             <h3>Test-Driven Development</h3>
             <p>
             A software development process in which tests are written to ensure that the application code will result in a required feature of the application.  
@@ -59,7 +59,7 @@ const MeetCaseStudy = () => {
             </p>
             <p>Example:<br />Feature 1: Filter Evens by City, Scenario 1: When a user hasn't searched for a city, show upcoming events from all cities.</p>
             <img src="tdd-example.png" alt="test-driven development example screenshot" className="meet-cs-screenshot" />
-            <p>
+            <p className="mt-3">
               The Behavior-Driven Development technique was also used in building this application.  
               Behavior-Driven Development focuses on test cases that are easy for developers and non-developers to understand.  
               The required features and scenarios are further broken down into Gherkin syntax using Given, When, and Then.  
@@ -70,10 +70,10 @@ const MeetCaseStudy = () => {
           </Col>
         </Row>
 
-        <Row className="mini-dividers bg-warning py-1"></Row>
+        <Row className="meet-dividers py-1"></Row>
 
 {/* technologies */}
-        <Row className="my-5 ms-5">
+        <Row className="my-5">
           <Col>
             <h3>Technology</h3>
             <Row>
@@ -101,7 +101,7 @@ const MeetCaseStudy = () => {
           </Col>
         </Row>
 
-        <Row className="mini-dividers bg-warning py-1"></Row>
+        <Row className="meet-dividers py-1"></Row>
 
 {/* troubleshooting */}
         <Row className="my-5">
@@ -115,11 +115,11 @@ const MeetCaseStudy = () => {
           </Col>
         </Row>
 
-        <Row className=" bg-warning py-1"></Row>
+        <Row className="meet-dividers py-1"></Row>
 
 {/* final product */}
         <Row className="my-5">
-          <Col className="meet-logo">
+          <Col sm={3} className="meet-logo mx-4">
             <p className="meet-logo-meet">meet</p>
             <p className="meet-logo-subtitle">& learn to code;</p>
           </Col>
@@ -137,7 +137,7 @@ const MeetCaseStudy = () => {
           </Col>
         </Row>
         
-        <Row className="bg-warning py-1"></Row>
+        <Row className="meet-dividers py-1"></Row>
 
 {/* credits */}
         <Row className="my-5" style={{textAlign: "center"}}>
@@ -149,7 +149,8 @@ const MeetCaseStudy = () => {
               Tutor: Jason Early
             </p>
             <a href="https://github.com/lladysmall/meet">GitHub Repository</a><br />
-            <a href="https://lladysmall.github.io/meet/">App Hosted on GitHub Pages</a>
+            <a href="https://lladysmall.github.io/meet/">App Hosted on GitHub Pages</a><br /><br />
+            <a href="https://unsplash.com/@dead____artist" className="meet-hero-credit">title photo credit: @dead____artist</a>
           </Col>
         </Row>
 
