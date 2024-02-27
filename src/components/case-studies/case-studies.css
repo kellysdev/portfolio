@@ -59,7 +59,7 @@ code {
 
 /* MOVIE CASE STUDY */
 .hero {
-  background-image: url("../public/bw-theater.jpg");
+  background-image: url("/public/bw-theater.jpg");
   background-position: center;
 }
 
