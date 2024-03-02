@@ -268,7 +268,7 @@ const MovieCaseStudy = () => {
             Mentor: Vini De Antoni<br/>
             Tutor: Jason Early
           </p>
-          <a href="https://github.com/lladysmall/movie-client">GitHub Repository</a>
+          <a href="https://github.com/kellysdev/movie-client">GitHub Repository</a>
           <a href="https://popopolis.netlify.app/login">App Hosted on Netlify</a>
         </Row>
 
