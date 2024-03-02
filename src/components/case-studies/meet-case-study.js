@@ -147,8 +147,8 @@ const MeetCaseStudy = () => {
               Mentor: Vini De Antoni<br />
               Tutor: Jason Early
             </p>
-            <a href="https://github.com/lladysmall/meet">GitHub Repository</a><br />
-            <a href="https://lladysmall.github.io/meet/">App Hosted on GitHub Pages</a><br /><br />
+            <a href="https://github.com/kellysdev/meet">GitHub Repository</a><br />
+            <a href="https://kellysdev.github.io/meet/">App Hosted on GitHub Pages</a><br /><br />
             <a href="https://unsplash.com/@dead____artist" className="meet-hero-credit">title photo credit: @dead____artist</a>
           </Col>
         </Row>
