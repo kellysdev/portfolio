@@ -18,7 +18,7 @@ const ResumePage = () => {
               ><i className="bi bi-download"></i> Download Resume</Button>
           </Col>
           <Col className="d-flex justify-content-end resume-contact">
-            <p>949 - 302 - 7615 <br/>kellyasdev@gmail.com<br/>github.com/lladysmall</p>
+            <p>949 - 302 - 7615 <br/>kellyasdev@gmail.com<br/>github.com/kellysdev</p>
           </Col>
         </Row>
 
