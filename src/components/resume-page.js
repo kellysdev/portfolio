@@ -17,9 +17,6 @@ const ResumePage = () => {
               href={require("../Scott-Kelly-Resume.pdf")} download="Scott-Kelly-Resume.pdf"
               ><i className="bi bi-download"></i> Download Resume</Button>
           </Col>
-          <Col className="d-flex justify-content-end resume-contact">
-            <p>949 - 302 - 7615 <br/>kellyasdev@gmail.com<br/>github.com/kellysdev</p>
-          </Col>
         </Row>
 
 {/* summary */}
