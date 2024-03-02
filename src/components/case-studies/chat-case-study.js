@@ -127,7 +127,7 @@ const ChatCaseStudy = () => {
               Mentor: Vini De Antoni<br />
               Tutor: Jason Early
             </p>
-            <a href="https://github.com/lladysmall/chat-app">GitHub Repository</a>
+            <a href="https://github.com/kellysdev/chat-app">GitHub Repository</a>
         </Row>
       
       </Col>
