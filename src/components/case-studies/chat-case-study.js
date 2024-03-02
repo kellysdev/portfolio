@@ -67,9 +67,6 @@ const ChatCaseStudy = () => {
         <Row className="my-3 chat-tech">
           <p><b>Google Firebase</b> is a web and mobile app development platform which provides services related to app authentication, data storage, and security.  It allows users to log in anonymously in this chat app and its Firestore Database was used to store the messages and images sent in the chat.</p>
         </Row>
-        <Row>
-          <img className="built-with-firebase" src="https://firebase.google.com/static/downloads/brand-guidelines/SVG/logo-built_black.svg" alt="Built with Firebase" />
-        </Row>
 
 {/* dev process */}
         <Row className="my-5">
