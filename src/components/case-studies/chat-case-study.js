@@ -74,29 +74,31 @@ const ChatCaseStudy = () => {
           <Col>
           
             <Row>
-              <h5>React Native and Expo</h5>
+              <h5 className="text-center mt-2">React Native and Expo</h5>
               <p>
                 An Expo application was created from a blank Expo template and navigation set up using React Native Navigation.
               </p>
             </Row>
 
             <Row>
-              <h5>Design Specifications</h5>
+              <h5 className="text-center mt-2">Design Specifications</h5>
               <p>
                 The design of the start screen was specified by the project brief with image and color assets provided.
               </p>
             </Row>
 
             <Row>
-              <h5>Chat Functionality & Accessibility</h5>
+              <h5 className="text-center mt-2">Chat Functionality & Accessibility</h5>
               <p>
-                The GiftedChat library was used for the main chat functionality.  It provides an interface that users expect of a chat application and allowed for customization.  This customization allowed for the implementation of an action button (from React Native ActionSheet) which, when pressed, opens a menu from which users can choose to send a picture, take a picture with the device camera to send, or to send their location to chat.<br />
-                Many of the functions of mobile devices use buttons without text on them so it is important to include accessibility roles for those buttons and similar items.  In this case, the Touchable Opacity utility was used instead of a button because it was more customizable.  Each Touchable Opacity received accessibilityRole="button" and, when there wasn't text in the Touchable Opacity, it received an appropriate accessibilityLabel and accessibilityHint.
+                The GiftedChat library was used for the main chat functionality.  It provides an interface that users expect of a chat application and allowed for customization.<br /><br />
+                This customization allowed for the implementation of an action button (from React Native ActionSheet) which, when pressed, opens a menu from which users can choose to send a picture, take a picture with the device camera to send, or to send their location to chat.<br /><br />
+                Many of the functions of mobile devices use buttons without text on them so it is important to include accessibility roles for those buttons and similar items.<br /><br />
+                In this case, the Touchable Opacity utility was used instead of a button because it was more customizable.  Each Touchable Opacity received accessibilityRole="button" and, when there wasn't text in the Touchable Opacity, it received an appropriate accessibilityLabel and accessibilityHint.
               </p>
             </Row>
 
             <Row>
-              <h5>Real Time Applications & Data Storage</h5>
+              <h5 className="text-center mt-2">Real Time Applications & Data Storage</h5>
               <p>
                 An effective chat app will show users new messages as soon as they are sent.  This function was made possible with Google Firebase websockets protocol.  The messages are also saved to Google Firestore cloud storage.<br />
                 Chat applications are useful when the user can access sent messages and images even when their device doesn’t have internet connection.  This feature was enabled by the React Native AsyncStorage package.
