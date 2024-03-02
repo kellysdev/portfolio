@@ -10,7 +10,7 @@ const Footer = () => {
         </Row>
         <Row>
           <Col xs={1} className="ms-auto">
-            <a href="https://github.com/lladysmall" target="_blank" rel="noreferrer">
+            <a href="https://github.com/kellysdev" target="_blank" rel="noreferrer">
               <h4><i className="bi bi-github text-white"></i></h4>
             </a>
           </Col>
