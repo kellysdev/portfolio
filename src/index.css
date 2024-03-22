@@ -23,11 +23,42 @@ code {
   height: 100vh;
 }
 
+.intro-col {
+  z-index: 5;
+}
+
 .intro-title {
   margin-top: 50%;
   color: #FAF7F5;
   font-size: 60px;
   font-weight: 700;
+}
+
+.intro-text {
+  color: #eff6e0;
+}
+
+.blob1-wrapper {
+  position: relative;
+}
+
+.blob1 {
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+  filter: blur(40px);
+  opacity: .7;
+}
+
+.blob2-wrapper {
+  position: relative;
+}
+
+.blob2 {
+  margin-bottom: 50px;
+  position: absolute;
+  z-index: -3;
+  filter: blur(40px);
 }
 
 /* PORTFOLIO */
