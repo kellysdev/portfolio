@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./App.css";
@@ -17,7 +17,7 @@ import ChatCaseStudy from "./components/case-studies/chat-case-study";
 function App() {
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Row>
       <Header />
         <Routes>
@@ -96,7 +96,7 @@ function App() {
         </Routes>
       <Footer />
       </Row>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
