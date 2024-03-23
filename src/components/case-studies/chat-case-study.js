@@ -111,10 +111,10 @@ const ChatCaseStudy = () => {
 {/* final product */}
         <Row className="mx-auto">
           <h3>Final Product</h3>
-          <Col>
+          <Col lg={4}>
             <img className="final-chat-screenshot" src="chat-start.png" alt="chat app screenshot of start screen"/>
           </Col>
-          <Col>
+          <Col lg={4}>
             <img className="final-chat-screenshot" src="chat-chat.png" alt="chat app screenshot of chat screen"/>
           </Col>
         </Row>
