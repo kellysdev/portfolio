@@ -23,7 +23,7 @@ const Portfolio = () => {
               <div className="project-links d-flex">
                 <a href="https://github.com/kellysdev/meet" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <a href="https://kellysdev.github.io/meet/" target="_blank" rel="noreferrer">Live App</a>
-                <a href="#/meet-case-study">Case Study</a>
+                <a href="/meet-case-study">Case Study</a>
               </div>
             </Col>
           </Row>
@@ -42,7 +42,7 @@ const Portfolio = () => {
               <div className="project-links d-flex">
                 <a href="https://github.com/kellysdev/movie-client" target="_blank" rel="noreferrer">GitHub Repo</a>
                 <a href="https://popopolis.netlify.app/" target="_blank" rel="noreferrer">Live App</a>
-                <a href="#/movie-case-study">Case Study</a>
+                <a href="/movie-case-study">Case Study</a>
               </div>
             </Col>
           </Row>
@@ -59,7 +59,7 @@ const Portfolio = () => {
               <p>A cross-platform chat application that allows users to share images and their location as well as to choose the background color for the chat screen.</p>
               <div className="project-links d-flex">
                 <a href="https://github.com/kellysdev/chat-app" target="_blank" rel="noreferrer">GitHub Repo</a>
-                <a href="#/chat-case-study">Case Study</a>
+                <a href="/chat-case-study">Case Study</a>
               </div>
             </Col>
           </Row>
