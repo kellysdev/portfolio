@@ -12,24 +12,30 @@ const Portfolio = () => {
       </Row>
 
       <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
+
+{/* movie-angular-client */}
+      <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
         <Col className="my-3">
           <Row>
-            <Col><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
+            <Col><img src="angular-main.png" alt="angular movie app screenshot" className="portfolio-img"/></Col>
             <Col lg={8}>
-              <h3>Progressive Web App</h3>
-              <h6 className="technologies text-secondary">React Testing Library | OAuth2 | AWS Lambda</h6>
-              <p>Built using a test-driven development technique, fetches upcoming events from the Google Calendar API, utilizes OAuth2 authentication, and features data visualization enabled by the Recharts library.</p>
+              <h3>Angular Version of CRUD Single-Page Web App</h3>
+              <h6 className="technologies text-secondary">Angular | TypeScript | TypeDoc</h6>
+              <p>
+                The client-side of a CRUD application with supporting documention and styled with Angular Material is hosted on GitHub Pages.  
+                The API, used was updated with documentation with JSDoc.
+              </p>
               <div className="project-links d-flex">
-                <a href="https://github.com/kellysdev/meet" target="_blank" rel="noreferrer">GitHub Repo</a>
-                <a href="https://kellysdev.github.io/meet/" target="_blank" rel="noreferrer">Live App</a>
-                <a href="/meet-case-study">Case Study</a>
+                <a href="https://github.com/kellysdev/movie-Angular-client" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a href="https://kellysdev.github.io/movie-Angular-client/welcome" target="_blank" rel="noreferrer">Live App</a>
+                <a href="/angular-movie-case-study">Case Study</a>
               </div>
             </Col>
           </Row>
         </Col>
         </motion.div>
 
+{/* movie-client */}
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
         <Col className="my-3">
           <Row>
@@ -49,7 +55,27 @@ const Portfolio = () => {
         </Col>
         </motion.div>
 
+{/* meet */}
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
+        <Col className="my-3">
+          <Row>
+            <Col><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
+            <Col lg={8}>
+              <h3>Progressive Web App</h3>
+              <h6 className="technologies text-secondary">React Testing Library | OAuth2 | AWS Lambda</h6>
+              <p>Built using a test-driven development technique, fetches upcoming events from the Google Calendar API, utilizes OAuth2 authentication, and features data visualization enabled by the Recharts library.</p>
+              <div className="project-links d-flex">
+                <a href="https://github.com/kellysdev/meet" target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a href="https://kellysdev.github.io/meet/" target="_blank" rel="noreferrer">Live App</a>
+                <a href="/meet-case-study">Case Study</a>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+        </motion.div>
+
+{/* chat */}
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
         <Col className="my-3">
           <Row>
             <Col className="portfolio-img"><img src="chat.png" alt="chat app screenshot" className="portfolio-img"/></Col>
@@ -66,7 +92,8 @@ const Portfolio = () => {
         </Col>
         </motion.div>
 
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
+{/* pokedex */}
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
         <Col className="my-3">
           <Row>
             <Col className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot" className="portfolio-img"/></Col>
