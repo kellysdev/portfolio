@@ -13,6 +13,7 @@ import Footer from "./components/footer";
 import MovieCaseStudy from "./components/case-studies/movie-case-study";
 import MeetCaseStudy from "./components/case-studies/meet-case-study";
 import ChatCaseStudy from "./components/case-studies/chat-case-study";
+import AngularMovieCaseStudy from "./components/case-studies/angular-movie-case-study";
 
 function App() {
 
@@ -70,7 +71,7 @@ function App() {
               path="/meet-case-study"
               element={
                 <Col>
-                <MeetCaseStudy />
+                  <MeetCaseStudy />
                 </Col>
               }
             />
@@ -79,7 +80,7 @@ function App() {
               path="/movie-case-study"
               element={
                 <Col>
-                <MovieCaseStudy />
+                  <MovieCaseStudy />
                 </Col>
               }
             />
@@ -88,7 +89,16 @@ function App() {
               path="/chat-case-study"
               element={
                 <Col>
-                <ChatCaseStudy />
+                  <ChatCaseStudy />
+                </Col>
+              }
+            />
+
+            <Route
+              path="/angular-movie-case-study"
+              element={
+                <Col>
+                  <AngularMovieCaseStudy />
                 </Col>
               }
             />
