@@ -119,29 +119,29 @@ const ResumePage = () => {
 {/* work experience */}
         <Row className="mt-5 d-flex">
           <h3>Work Experience</h3>
-          <Col className="mt-1">
+          <Col className="mt-2">
             <Row>
               <h4>Packaging Assistant</h4>
-              <p>Sudwerk Brewing Co.</p>
-              <p>June 2023 - Present</p>
+              <p>Sudwerk Brewing Co.<br/>
+                June 2023 - Present</p>
             </Row>
             <Row><p>Manage tasks with competing priorities alongside the production team to transfer and package product and clean kegs.</p></Row>
           </Col>
 
-          <Col className="mt-1">
+          <Col className="mt-2">
             <Row>
               <h4>Staff Research Assistant</h4>
-              <p>University of California, Davis</p>
-              <p>February 2018 - June 2023</p>
+              <p>University of California, Davis<br/>
+                February 2018 - June 2023</p>
             </Row>
             <Row><p>Maintained a research facility while teaching classes, ensuring safety compliance, and conducting research.</p></Row>
           </Col>
 
-          <Col className="mt-1">
+          <Col className="mt-2">
             <Row>
               <h4>Brewer</h4>
-              <p>Sudwerk Brewing Co.</p>
-              <p>September 2015 - February 2018</p>
+              <p>Sudwerk Brewing Co.<br/>
+                September 2015 - February 2018</p>
             </Row>
             <Row><p>Perform brewing and cellaring duties from raw material intake through packaging while managing a team to ensure that the production plan was executed every week.</p></Row>
           </Col>
