@@ -42,11 +42,11 @@ const AngularMovieCaseStudy = () => {
 
 {/* tech used */}
         <Row>
-          <Col sm={3} className="mt-2">
-            <img className="angular-documentation" src="documentation-code.png" alt="screenshot of comments used to generate documention" />
-          </Col>
+          {/* <Col sm={2} className="mt-2">
+            
+          </Col> */}
           <Col>
-          <h3 className="mb-3 popopolis-logo">Technology</h3>
+          <h3 className="my-3 popopolis-logo">Technology</h3>
             <h4>Angular</h4>
             <p>
               Angular is a development platform that includes a component-based framework for building applications, 
@@ -61,13 +61,20 @@ const AngularMovieCaseStudy = () => {
               Angular Material is a user interface component library built on Google's Material Design.<br/>
               Components used in this project include inputs, forms, the toolbar, cards, dialogs, buttons, and icons.
             </p>
+          </Col>
+        </Row>
 
+        <Row className="mt-3">
+          <Col className="my-auto" md={6} lg={4}>
+            <img className="angular-documentation" src="documentation-code.png" alt="screenshot of comments used to generate documention" />
+          </Col>
+          <Col>
             <h4>TypeDoc and JSDoc</h4>
-            <p>
-              TypeDoc and JSDoc are documentation generators for TypeScript and JavaScript, respectively.  
-              They scan your code and generate websites with information about your code, based on comments that you include with your code.
-              <br/>In the image on the left, the code with asterisks before it are comments written in a style that these generators recognize.
-            </p>
+              <p>
+                TypeDoc and JSDoc are documentation generators for TypeScript and JavaScript, respectively.  
+                They scan your code and generate websites with information about your code, based on comments that you include with your code.
+                <br/>In the image on the left, the code with asterisks before it are comments written in a style that these generators recognize.
+              </p>
           </Col>
         </Row>
 
