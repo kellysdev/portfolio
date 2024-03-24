@@ -37,7 +37,9 @@ const ResumePage = () => {
                 <ul>
                   <li>JavaScript, HTML, CSS</li>
                   <li>React</li>
+                  <li>Angular</li>
                   <li>Bootstrap</li>
+                  <li>Angular Material</li>
                   <li>User Stories / Scenarios, Gherkin</li>
                 </ul>
             </ul>
@@ -48,6 +50,7 @@ const ResumePage = () => {
               <li>Back-End</li>
                 <ul>
                   <li>Node</li>
+                  <li>Express</li>
                   <li>MongoDB</li>
                   <li>JSON</li>
                   <li>RESTful APIs</li>
