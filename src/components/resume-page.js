@@ -88,13 +88,14 @@ const ResumePage = () => {
               <li>A serverless, progressive web application built using a test-driven development technique.</li>
               <li>Fetches and displays events from the Google Calendar API and renders event data in charts using Recharts.</li>
               <li>Uses AWS for the authorization server and uses OAuth 2 authentication.</li>
+              <li>Application data is available offline once loaded and the app can be downloaded to a desktop or home screen.</li>
             </ul>
           </Col>
           <Col className="mt-1">
             <h4>CRUD Movie Application</h4>
             <ul>
               <li>Single-page, responsive app with routing, several interface views, and a polished user experience.</li>
-              <li>Client-side built with React and Bootstrap as well as React-Router and Parcel, It is hosted on Netlify.</li>
+              <li>Two versions of the client-side were built: one with React and Bootstrap and is hosted on Netlify, while the other was built with Angular and Angular Material and is hosted on GitHub pages.</li>
               <li>The server-side is a REST API built with Node.js, Express and MongoDB. 
                 API endpoints were tested with Postman and the API is deployed on Heroku. Utilizes JWT authentication.</li>
             </ul>
