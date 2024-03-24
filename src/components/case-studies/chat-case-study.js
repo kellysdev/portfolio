@@ -47,25 +47,30 @@ const ChatCaseStudy = () => {
         </Row>
 
 {/* tech used */}
-        <Row className="mt-5 mb-2"><h3>Technology Used</h3></Row>
-
-        <Row className="my-3 chat-left">
+        <Row className="mt-5 mb-2">
+          <h3>Technology Used</h3>
+          <Col className="d-flex-row">
+          
+          <Row className="my-3 mx-auto chat-left">
           <p><b>React Native</b> allows for cross platform development using JavaScript and React.  React Native Navigation is a package that was used to allow navigation between the start screen and the chat screen.</p>
         </Row>
-        <Row className="my-3 chat-tech">
+        <Row className="my-3 mx-auto chat-tech">
           <p><b>Expo</b> is a software development kit that allows developers to create applications with React that will work on Android and iOS.  Expo Go is an app that I used to test the application on my iPhone.</p>
         </Row>
-        <Row className="my-3 chat-left">
+        <Row className="my-3 mx-auto chat-left">
           <p><b>Android Studio</b> is an emulator that allows developers to test their application on an Android device if they don’t own one.</p>
         </Row>
-        <Row className="my-3 chat-tech">
+        <Row className="my-3 mx-auto chat-tech">
           <p><b>GiftedChat</b> is a chat user interface package for React Native that implements chat functionality with customization.</p>
         </Row>
-        <Row className="my-3 chat-left">
+        <Row className="my-3 mx-auto chat-left">
           <p><b>AsyncStorage</b> is a package recommended by Expo and React Native.  It allows developers to store data locally on a mobile device, similar to how data is stored in localStorage on a web browser.</p>
         </Row>
-        <Row className="my-3 chat-tech">
+        <Row className="my-3 mx-auto chat-tech">
           <p><b>Google Firebase</b> is a web and mobile app development platform which provides services related to app authentication, data storage, and security.  It allows users to log in anonymously in this chat app and its Firestore Database was used to store the messages and images sent in the chat.</p>
+        </Row>
+          
+          </Col>
         </Row>
 
 {/* dev process */}

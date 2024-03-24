@@ -107,6 +107,7 @@ code {
 }
 
 .chat-tech {
+  max-width: 500px;
   background-color: lightblue;
   color: rgb(0, 0, 0);
   margin-left: 20%!important;
@@ -115,6 +116,7 @@ code {
 }
 
 .chat-left {
+  max-width: 500px;
   background-color: lightgray;
   color: rgb(0, 0, 0);
   margin-right: 20%!important;
