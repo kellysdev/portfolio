@@ -10,10 +10,9 @@ const MovieCaseStudy = () => {
         <Row>
           <header className="hero has-bg-img" style={{ paddingLeft: 0 }}>
             <div className="p-3 text-center bg-image">
-              {/* <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}> */}
               <div className="mask">
                 <div className="d-flex justify-content-center align-items-center h-100">
-                  <div className="text-white">
+                  <div>
                     <h1 className="mt-5 text-warning popopolis-logo">Case Study</h1>
                     <h4 className="mb-5 text-warning popopolis-logo">React CRUD Movie Application</h4>
                   </div>
