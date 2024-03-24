@@ -23,6 +23,10 @@ code {
   background-position: center;
 }
 
+.angular-documentation {
+  width: 100%;
+}
+
 /* MEET CASE STUDY */
 .meet-hero {
   background-image: url("https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
