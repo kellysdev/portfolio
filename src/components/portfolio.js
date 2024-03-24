@@ -19,7 +19,7 @@ const Portfolio = () => {
           <Row>
             <Col><img src="angular-main.png" alt="angular movie app screenshot" className="portfolio-img"/></Col>
             <Col lg={8}>
-              <h3>Angular Version of CRUD Single-Page Web App</h3>
+              <h3>Angular CRUD Single-Page Web App</h3>
               <h6 className="technologies text-secondary">Angular | TypeScript | TypeDoc</h6>
               <p>
                 The client-side of a CRUD application with supporting documention and styled with Angular Material is hosted on GitHub Pages.  
@@ -41,7 +41,7 @@ const Portfolio = () => {
           <Row>
             <Col className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot" className="portfolio-img"/></Col>
             <Col lg={8}>
-              <h3>CRUD Single-Page Web App</h3>
+              <h3>React CRUD Single-Page Web App</h3>
               <h6 className="technologies text-secondary">MERN | API Development | Bootstrap</h6>
               <p>Users can create an account, view movie information, curate a list of their favorite movies, and update or delete their account.  
                 The server-side utilizes JWT authentication and is hosted on Heroku.  The client-side also uses react-router and Parcel and is hosted on Netlify.</p>
