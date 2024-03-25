@@ -87,6 +87,12 @@ code {
   border-radius: 3px;
 }
 
+.codepen {
+  fill: #FFF;
+  height: 24px;
+  width: 32.5px;
+}
+
 /* FOOTER */
 .footer {
   text-align: center;
