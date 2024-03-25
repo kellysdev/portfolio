@@ -21,11 +21,11 @@ const About = () => {
               aria-label="Link to Medium profilee">
               <h4><i class="bi bi-medium text-white"></i></h4>
             </a>
-            <a href="https://twitter.com/lladysmall" 
+            {/* <a href="https://twitter.com/lladysmall" 
               target="_blank" rel="noreferrer" 
               aria-label="Link to Twitter profile">
               <h4><i class="bi bi-twitter-x text-white"></i></h4>
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/kellysdev/" 
               target="_blank" rel="noreferrer"
               aria-label="Link to Instagram account">
