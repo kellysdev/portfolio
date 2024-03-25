@@ -23,7 +23,7 @@ const Portfolio = () => {
               <h6 className="technologies text-secondary">Angular | TypeScript | TypeDoc</h6>
               <p>
                 The client-side of a CRUD application with supporting documention and styled with Angular Material is hosted on GitHub Pages.  
-                The API, used was updated with documentation with JSDoc.
+                The API used was updated with documentation with JSDoc.
               </p>
               <div className="project-links d-flex">
                 <a href="https://github.com/kellysdev/movie-Angular-client" target="_blank" rel="noreferrer">GitHub Repo</a>
