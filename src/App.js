@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./App.css";
+import "./custom.scss";
 import "./components/case-studies/case-studies.css";
 import Header from "./components/header";
 import Intro from "./components/intro";
