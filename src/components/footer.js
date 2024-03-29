@@ -22,15 +22,9 @@ const Footer = () => {
             </a>
           </Col>
 {/* instagram */}
-          {/* <Col>
+          <Col xs={1} className="me-auto">
             <a href="https://www.instagram.com/kellysdev/" aria-label="Link to Instagram account" target="_blank" rel="noreferrer">
               <h4><i className="bi bi-instagram text-white" ></i></h4>
-            </a>
-          </Col> */}
-{/* twitter */}
-          <Col xs={1} className="me-auto">
-            <a href="https://twitter.com/lladysmall" aria-label="Link to Twitter profile" target="_blank" rel="noreferrer">
-              <h4><i class="bi bi-twitter-x text-white"></i></h4>
             </a>
           </Col>
         </Row>
