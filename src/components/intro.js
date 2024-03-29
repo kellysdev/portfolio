@@ -16,9 +16,9 @@ const Intro = () => {
       </motion.div>
       <motion.div className="blob2-wrapper" animate={{
         scale: [1, 0.8, 0.9, 0.7, 1],
-        y: [0, 20, 50, 0]
+        y: [0, 20, 40, 0]
       }} transition={{duration: 15, repeat: Infinity}}>
-        <svg className="blob2" viewBox="0 10 175 150" xmlns="http://www.w3.org/2000/svg">
+        <svg className="blob2" viewBox="0 10 175 147" xmlns="http://www.w3.org/2000/svg">
           <path fill="#124559" d="M48,-63.5C56.4,-50.2,53.3,-29.5,52.7,-12.3C52,4.9,54,18.6,49,29.4C44.1,40.3,32.3,48.3,18.3,55.7C4.3,63.2,-11.8,70,-26,66.8C-40.2,63.6,-52.4,50.5,-61.9,35.2C-71.5,19.9,-78.4,2.4,-74.5,-12C-70.6,-26.4,-55.9,-37.8,-41.7,-50C-27.5,-62.3,-13.7,-75.5,3,-79.1C19.8,-82.8,39.7,-76.9,48,-63.5Z" transform="translate(100 100)" />
         </svg>
       </motion.div>
