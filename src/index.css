@@ -20,7 +20,7 @@ code {
 
 /* HOME PAGE */
 .intro {
-  height: 100vh;
+  height: 79vh;
 }
 
 .intro-col {
@@ -55,7 +55,7 @@ code {
 }
 
 .blob2 {
-  margin-bottom: 50px;
+  margin: 0;
   position: absolute;
   z-index: -3;
   filter: blur(40px);
