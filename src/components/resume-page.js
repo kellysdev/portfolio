@@ -122,11 +122,41 @@ const ResumePage = () => {
 {/* work experience */}
         <Row className="mt-5 d-flex">
           <h3>Work Experience</h3>
+
           <Col className="mt-2">
+            <Row>
+              <h4>Assistant Brewer</h4>
+              <p>Super Owl Brewing<br/>
+                April 2024 - Present</p>
+            </Row>
+            <Row>
+              <p>
+                Work with head brewer to brew beer, clean equipment, and package beer to meet production requirements.
+              </p>
+            </Row>
+          </Col>
+
+          <Col className="mt-2">
+            <Row>
+              <h4>Student Full-Stack Developer</h4>
+              <p>Career Foundry<br/>
+                July 2023 - June 2024</p>
+            </Row>
+            <Row>
+              <p>
+                Gain proficiency in HTML, CSS, JavaScript and front-end frameworks with a strong emphasis on responsive design, accessibility, and modern development tools and practices.
+              </p>
+            </Row>
+          </Col>
+
+        </Row>
+
+        <Row className="mt-2">
+        <Col className="mt-2">
             <Row>
               <h4>Packaging Assistant</h4>
               <p>Sudwerk Brewing Co.<br/>
-                June 2023 - Present</p>
+                June 2023 - December 2023</p>
             </Row>
             <Row><p>Manage tasks with competing priorities alongside the production team to transfer and package product and clean kegs.</p></Row>
           </Col>
@@ -139,16 +169,7 @@ const ResumePage = () => {
             </Row>
             <Row><p>Maintained a research facility while teaching classes, ensuring safety compliance, and conducting research.</p></Row>
           </Col>
-
-          <Col className="mt-2">
-            <Row>
-              <h4>Brewer</h4>
-              <p>Sudwerk Brewing Co.<br/>
-                September 2015 - February 2018</p>
-            </Row>
-            <Row><p>Perform brewing and cellaring duties from raw material intake through packaging while managing a team to ensure that the production plan was executed every week.</p></Row>
-          </Col>
-        </Row>  
+        </Row>
       </motion.div>     
 
       </Col>
