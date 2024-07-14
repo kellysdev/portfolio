@@ -40,7 +40,7 @@ const ResumePage = () => {
                   <li>Angular</li>
                   <li>Bootstrap</li>
                   <li>Angular Material</li>
-                  <li>User Stories / Scenarios, Gherkin</li>
+                  <li>User Stories / Scenarios / Gherkin</li>
                 </ul>
             </ul>
           </Col>
