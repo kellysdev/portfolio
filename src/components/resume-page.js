@@ -86,6 +86,15 @@ const ResumePage = () => {
           </ul>
         </Col> */}
         <Col className="mt-1">
+          <h4>CRUD Movie Application</h4>
+          <ul>
+            <li>Single-page, responsive app with routing, several interface views, and a polished user experience.</li>
+            <li>Two versions of the client-side were built: one with React and Bootstrap and is hosted on Netlify, while the other was built with Angular and Angular Material and is hosted on GitHub pages.</li>
+            <li>The server-side is a REST API built with Node.js, Express and MongoDB. 
+              API endpoints were tested with Postman and the API is deployed on Heroku. Utilizes JWT authentication.</li>
+          </ul>
+        </Col>
+        <Col className="mt-1">
             <h4>React Meet Application</h4>
             <ul>
               <li>A serverless, progressive web application built using a test-driven development technique.</li>
@@ -94,13 +103,22 @@ const ResumePage = () => {
               <li>Application data is available offline once loaded and the app can be downloaded to a desktop or home screen.</li>
             </ul>
           </Col>
-          <Col className="mt-1">
-            <h4>CRUD Movie Application</h4>
+        </Row>
+        <Row className="mt-2">
+        <Col>
+            <h4>React Native Chat Application</h4>
             <ul>
-              <li>Single-page, responsive app with routing, several interface views, and a polished user experience.</li>
-              <li>Two versions of the client-side were built: one with React and Bootstrap and is hosted on Netlify, while the other was built with Angular and Angular Material and is hosted on GitHub pages.</li>
-              <li>The server-side is a REST API built with Node.js, Express and MongoDB. 
-                API endpoints were tested with Postman and the API is deployed on Heroku. Utilizes JWT authentication.</li>
+              <li>Cross-platform chat application that allows users to share images, their location, text messages and to choose the color of the chat screen.</li>
+              <li>Built with React Native, React Navigation, Expo, Google Firebase and the GiftedChat library.</li>
+              <li>Uses anonymous authentication via Google Firebase, chat conversations are stored in the Google Firestore Database and images are stored in Firebase Cloud Storage.</li>
+            </ul>
+          </Col>
+          <Col>
+            <h4>API Fetch Application</h4>
+            <ul>
+              <li>Built with HTML, CSS, JavaScript, and some JQuery.</li>
+              <li>Loads data from the PokeAPI and enables viewing of the data points in detail.</li>
+              <li>Allows the user to search for Pokemon by name.</li>
             </ul>
           </Col>
         </Row>
