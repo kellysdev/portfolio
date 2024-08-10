@@ -289,14 +289,6 @@ const AWSCRUD = () => {
               </Col>
             </Row>
 
-            {/* i'd like an image here tying the resources together? */}
-
-            <p className="mt-5">
-              To access the application, with all resources running, you would just visit the S3 static website URL.
-              <br />
-              The resources are quite expensive to run for very long, though, so application is no longer actively deployed.
-            </p>
-
           </Col>
         </Row>
 
