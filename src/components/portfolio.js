@@ -13,8 +13,32 @@ const Portfolio = () => {
 
       <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
 
-{/* movie-angular-client */}
+{/* aws-crud */}
         <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
+          <Col className="my-3">
+            <Row>
+              <Col><img src="imageresizer.png" alt="AWS deployment screenshot" className="portfolio-img"/></Col>
+              <Col lg={8}>
+                <h3>Image Resizer & AWS App Deployment</h3>
+                <h6 className="technologies text-secondary">EC2 | AWS SDK | Lambda</h6>
+                <p>
+                  Am image resizer feature, added to the React CRUD single-page web app as a profile image feature, which allows the user to upload an image to an Amazon Web Services (AWS) S3 bucket.
+                  The image is resized, uploaded to a new folder in the bucket, and set as the profile image. 
+                  The bucket of resized images is available to view client-side and the user may select a new profile image from it.
+                  <br />
+                  The React CRUD application with the image resizer was deployed with AWS.
+                </p>
+                <div className="project-links d-flex">
+                  <a href="https://github.com/kellysdev/s3-image-resizer" className="btn btn-outline-info" target="_blank" rel="noreferrer">GitHub Repo</a>
+                  <a href="/aws-crud"  className="btn btn-outline-info" >Case Study</a>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </motion.div>
+
+{/* movie-angular-client */}
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
           <Col className="my-3">
             <Row>
               <Col><img src="angular-main.png" alt="angular movie app screenshot" className="portfolio-img"/></Col>
@@ -36,7 +60,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* movie-client */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot" className="portfolio-img"/></Col>
@@ -56,7 +80,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* meet */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
           <Col className="my-3">
             <Row>
               <Col><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
@@ -75,7 +99,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* chat */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="chat.png" alt="chat app screenshot" className="portfolio-img"/></Col>
@@ -93,7 +117,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* pokedex */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.6}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot" className="portfolio-img"/></Col>
