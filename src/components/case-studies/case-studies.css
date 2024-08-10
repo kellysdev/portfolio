@@ -16,6 +16,17 @@ code {
   text-align: center;
 }
 
+/* AWS CASET STUDY */
+.aws-hero {
+  background-image: url("https://images.unsplash.com/photo-1488812690953-601000f207e4?q=80&w=2090&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  border-radius: 10px;
+}
+
+.aws-tech {
+  background-color: rgba(53,69,68, 0.8);
+  border-radius: 10px;
+}
+
 /* ANGULAR MOVIE CLIENT CASE STUDY */
 
 .angular-movie-hero {
