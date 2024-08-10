@@ -169,13 +169,13 @@ const AWSCRUD = () => {
                   Subnets are smaller divisions of a VPC and are created within Availability Zones.
                   <br /><br />
                   This deployment utilized 6 total subnets:<br />
-                  <ul>
-                    <li>1 private subnet in each of 3 Availability Zones</li>
-                    <li>
-                      1 public subnet in each of 3 Availability Zones
-                    </li>
-                  </ul>
                 </p>
+                <ul>
+                  <li>1 private subnet in each of 3 Availability Zones</li>
+                  <li>
+                    1 public subnet in each of 3 Availability Zones
+                  </li>
+                </ul>
               </Col>
 
               <Col xs={12} xl={3} className="p-4 aws-tech">
@@ -197,11 +197,11 @@ const AWSCRUD = () => {
                 <p>
                   Define how traffic flows within the VPC, as well as into and out of the VPC.<br /><br />
                   This deployment utilized:
-                  <uL>
-                    <li>A private route table with a local route and a route for the NAT Gateway, which was associated with the private subnets.</li>
-                    <li>A public route table with a local route and a route for the Internet Gateway, which was associated with the public subnets.</li>
-                  </uL>
                 </p>
+                <ul>
+                  <li>A private route table with a local route and a route for the NAT Gateway, which was associated with the private subnets.</li>
+                  <li>A public route table with a local route and a route for the Internet Gateway, which was associated with the public subnets.</li>
+                </ul>
               </Col>
 
               <Col xs={12} xl={3} className="p-4 aws-tech">
