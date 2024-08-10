@@ -15,6 +15,7 @@ import MovieCaseStudy from "./components/case-studies/movie-case-study";
 import MeetCaseStudy from "./components/case-studies/meet-case-study";
 import ChatCaseStudy from "./components/case-studies/chat-case-study";
 import AngularMovieCaseStudy from "./components/case-studies/angular-movie-case-study";
+import AWSCRUD from "./components/case-studies/aws-crud";
 
 function App() {
 
@@ -100,6 +101,15 @@ function App() {
               element={
                 <Col>
                   <AngularMovieCaseStudy />
+                </Col>
+              }
+            />
+
+            <Route 
+              path="/aws-crud"
+              element={
+                <Col>
+                  <AWSCRUD />
                 </Col>
               }
             />
