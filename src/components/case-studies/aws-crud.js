@@ -117,7 +117,7 @@ const AWSCRUD = () => {
             </p>
 
             <Row>
-              <Col sm={6}>
+              <Col sm={12} md={6}>
                 <p>
                   This new S3Images component by default shows a placeholder profile image above a field where users can upload an image 
                   and a link to select an image from the bucket.  When a user uploads an image, it is set as their profile image.  
@@ -125,7 +125,7 @@ const AWSCRUD = () => {
                   it is set as their profile image.
                 </p>
               </Col>
-              <Col sm={1}>
+              <Col sm={12} md={6} className="m-auto">
                 <img 
                   src="imageresizer.png" alt="screenshot" className="aws-img corners"
                 />
