@@ -152,7 +152,7 @@ const AWSCRUD = () => {
               and an image resizer feature implemented with AWS Lambda and a S3 bucket.
               <br /><br />
               The API integrates the front-end React code to the database in MongoDB, 
-              allowing the front-end to perform CRUD (create, read, update and delete) operations to the database.   … want security …
+              allowing the front-end to perform CRUD (create, read, update and delete) operations to the database.
               <br /><br />
               To deploy this application with Amazon Web Services (AWS), 
               the following resources were configured through AWS CLI (command line interface) and the AWS management console:
