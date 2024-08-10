@@ -8,7 +8,7 @@ const AWSCRUD = () => {
       <Col>
 {/* hero */}
         <Row className="mt-5">
-          <header className="aws-hero has-bg-img" style={{ paddingLeft: 0 }}>
+          <header className="aws-hero has-bg-img corners" style={{ paddingLeft: 0 }}>
             <div className="p-3 text-center bg-image">
               <div className="mask">
                 <div className="d-flex justify-content-center align-items-center h-100">
@@ -35,7 +35,7 @@ const AWSCRUD = () => {
           </p>
         </Row>
 
-        <Row className="bg-success my-4 py-1"></Row>
+        <Row className="bg-success my-4 py-1 corners"></Row>
 
 {/* image resizer */}
         <Row>
@@ -52,13 +52,13 @@ const AWSCRUD = () => {
             </p>
 
             <Row className="d-grip gap-3">
-              <Col className="m-3 p-4 aws-tech">
+              <Col className="m-3 p-4 aws-tech corners">
                 <h4>AWS SDK</h4>
                 <h6>Software Development Kit</h6>
                 <p>A way to call AWS services using JavaScript APIs to build Node.js, web, and mobile web applications.</p>
               </Col>
 
-              <Col className="m-3 p-4 aws-tech">
+              <Col className="m-3 p-4 aws-tech corners">
                 <h4>AWS Lambda</h4>
                 <p>
                 An event-driven, “serverless” Function as a Service (FaaS) resource.  
@@ -82,7 +82,7 @@ const AWSCRUD = () => {
               This was resolved by implementing the mimeType package to make sure the image being retrieved was in the correct file format.
             </p>
 
-            <div className="m-3 p-4 aws-tech">
+            <div className="m-3 p-4 aws-tech corners">
               <h4>LocalStack</h4>
               <p>
                 LocalStack lets you test AWS resources locally without having to spin up all instances, load balancers, etc (more on that below).
@@ -100,7 +100,7 @@ const AWSCRUD = () => {
             </p>
 
             <Row>
-              <Col>
+              <Col sm={6}>
                 <p>
                   This new S3Images component by default shows a placeholder profile image above a field where users can upload an image 
                   and a link to select an image from the bucket.  When a user uploads an image, it is set as their profile image.  
@@ -108,8 +108,10 @@ const AWSCRUD = () => {
                   it is set as their profile image.
                 </p>
               </Col>
-              <Col>
-                {/* i'd like a gif here */}
+              <Col sm={1}>
+                <img 
+                  src="imageresizer.png" alt="screenshot" className="aws-img corners"
+                />
               </Col>
             </Row>
 
@@ -122,7 +124,7 @@ const AWSCRUD = () => {
           </Col>
         </Row>
 
-        <Row className="bg-success my-4 py-1"></Row>
+        <Row className="bg-success my-4 py-1 corners"></Row>
 
 {/* deployment */}
         <Row>
@@ -141,26 +143,26 @@ const AWSCRUD = () => {
 
   {/* bulk tech descriptions */}
             <Row className="d-grip gap-3 justify-content-center">
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>IAM</h4>
                 <h6>Identity and Access Management</h6>
                 <p>Defines what users and resources have access to.</p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>VPC</h4>
                 <h6>Virtual Private Cloud</h6>
                 <p>An isolated part of the AWS cloud populated by AWS objects, such as EC2 instances.</p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>Security Groups</h4>
                 <p>
                   Attached to AWS resources and they define what AWS resources can access one another.
                 </p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>Availability Zones & Subnets</h4>
                 <p>
                   Applications are typically deployed across multiple Availability Zones in case of a service outage.  
@@ -178,7 +180,7 @@ const AWSCRUD = () => {
                 </ul>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>EC2</h4>
                 <h6>Elastic Cloud Compute</h6>
                 <p>
@@ -192,7 +194,7 @@ const AWSCRUD = () => {
                 </p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>Route Tables</h4>
                 <p>
                   Define how traffic flows within the VPC, as well as into and out of the VPC.<br /><br />
@@ -204,17 +206,17 @@ const AWSCRUD = () => {
                 </ul>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>NAT Gateway</h4>
                 <p>Allows traffic out of a VPC to the public internet.</p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>Internet Gateway</h4>
                 <p>Allows traffic into and out of the VPC.</p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>AMI</h4>
                 <h6>Amazon Machine Image</h6>
                 <p>
@@ -227,7 +229,7 @@ const AWSCRUD = () => {
                 </p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>ALB</h4>
                 <h6>Application Load Balancer</h6>
                 <p>
@@ -239,7 +241,7 @@ const AWSCRUD = () => {
                 </p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>ASG</h4>
                 <h6>Auto Scaling Group</h6>
                 <p>
@@ -252,7 +254,7 @@ const AWSCRUD = () => {
                 </p>
               </Col>
 
-              <Col xs={12} xl={3} className="p-4 aws-tech">
+              <Col xs={12} xl={3} className="p-4 aws-tech corners">
                 <h4>S3</h4>
                 <p>
                   The core object storage service of AWS.  An S3 bucket is the storage resource.<br /><br />
@@ -281,7 +283,7 @@ const AWSCRUD = () => {
           </Col>
         </Row>
 
-        <Row className="bg-success my-4 py-1"></Row>
+        <Row className="bg-success my-4 py-1 corners"></Row>
 
 {/* credits */}
         <Row className="my-5 credits">
