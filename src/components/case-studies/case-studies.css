@@ -97,6 +97,18 @@ code {
 }
 
 .mini-dividers {
+  margin-left: 20%!important;
+}
+
+.mini-dividers-2 {
+  margin-left: 40%!important;
+}
+
+.mini-dividers-3 {
+  margin-left: 60%!important;
+}
+
+.mini-dividers-4 {
   margin-left: 80%!important;
 }
 

@@ -61,8 +61,9 @@ const MovieCaseStudy = () => {
           </Col>
         </Row>
 
-{/* step 1 - planning */}
         <Row className="mini-dividers bg-warning py-1"></Row>
+
+{/* step 1 - planning */}
         <Row className="my-5">
           <h3 className="mb-3 popopolis-logo">1 - Planning</h3>
           <Col>
@@ -123,7 +124,7 @@ const MovieCaseStudy = () => {
         </Row>
 
 {/* step 2 - components */}
-        <Row className="mini-dividers bg-warning py-1"></Row>
+        <Row className="mini-dividers-2 bg-warning py-1"></Row>
         <Row className="mt-5">
           <h3 className="mb-3 popopolis-logo">2- Creating the Components</h3>
           <Col>
@@ -173,7 +174,7 @@ const MovieCaseStudy = () => {
         </Row>
 
 {/* step 3 - routing */}
-        <Row className="mini-dividers bg-warning py-1"></Row>
+        <Row className="mini-dividers-3 bg-warning py-1"></Row>
         <Row className="my-5">
           <h3 className="popopolis-logo">3 - Client-side Routing</h3>
           <p>
@@ -196,7 +197,7 @@ const MovieCaseStudy = () => {
         </Row>
 
 {/* step 4 - deploy */}
-        <Row className="mini-dividers bg-warning py-1"></Row>
+        <Row className="mini-dividers-4 bg-warning py-1"></Row>
         <Row className="my-5">
           <h3 className="mb-3 popopolis-logo">4 - Deploy on Netlify</h3>
           <Col>
