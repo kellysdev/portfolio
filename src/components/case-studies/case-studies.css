@@ -128,8 +128,8 @@ code {
   max-width: 500px;
   background-color: lightblue;
   color: rgb(0, 0, 0);
-  margin-left: 20%!important;
-  border-radius: 10px;
+  margin-right: 20%!important;
+  border-radius: 20px;
   border-bottom-right-radius: 0px;
 }
 
@@ -137,8 +137,8 @@ code {
   max-width: 500px;
   background-color: lightgray;
   color: rgb(0, 0, 0);
-  margin-right: 20%!important;
-  border-radius: 10px;
+  margin-left: 20%!important;
+  border-radius: 20px;
   border-bottom-left-radius: 0px;
   left: -0.35rem;
 }
