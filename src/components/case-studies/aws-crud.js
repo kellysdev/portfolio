@@ -290,9 +290,11 @@ const AWSCRUD = () => {
             Lead Developer: Kelly Scott<br/>
             Mentor: Vivek Kumar Maskara
           </p>
-          {/* <a href="https://github.com/kellysdev/movie-Angular-client">GitHub Repository</a>
-          <a href="https://kellysdev.github.io/movie-Angular-client/welcome">App Hosted on Netlify</a><br/><br/> */}
-          {/* <a href="https://unsplash.com/@liammcgarry" className="meet-hero-credit">title photo credit: @liammcgarry</a> */}
+          <a href="https://github.com/kellysdev/s3-image-resizer">Image Resizer GitHub Repository</a>
+          <a href="https://github.com/kellysdev/movie-aws">Front-End GitHub Repository</a>
+          <a href="https://github.com/kellysdev/movie-api">API GitHub Repository</a>
+          <br /><br />
+          <a href="https://unsplash.com/@alex_andrews" className="meet-hero-credit">title photo credit: @alex_andrews</a>
         </Row>
 
       </Col>
