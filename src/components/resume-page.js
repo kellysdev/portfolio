@@ -24,7 +24,7 @@ const ResumePage = () => {
             <h3>Summary</h3>
             <p>
               Web developer passionate about clean, maintainable, and efficient code.  With a background in research and brewing, is adept at managing priorities and problem solving.
-              Excited to pursue a career collaborating with others to create user-centric websites.
+              <br />Excited to pursue a career collaborating with others to create user-centric websites.
             </p>
         </Row>
 
