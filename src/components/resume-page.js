@@ -62,8 +62,8 @@ const ResumePage = () => {
             <ul>
               <li>Also proficient in</li>
                 <ul>
+                  <li>Amazon Web Services</li>
                   <li>Functional Programming</li>
-                  <li>Object-Oriented Programming</li>
                   <li>Test-driven and behavor-driven development</li>
                   <li>Version Control - GitHub</li>
                   <li>Postman</li>
