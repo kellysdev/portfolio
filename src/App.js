@@ -16,6 +16,7 @@ import MeetCaseStudy from "./components/case-studies/meet-case-study";
 import ChatCaseStudy from "./components/case-studies/chat-case-study";
 import AngularMovieCaseStudy from "./components/case-studies/angular-movie-case-study";
 import AWSCRUD from "./components/case-studies/aws-crud";
+import WordPress from "./components/case-studies/wordpress";
 
 function App() {
 
@@ -110,6 +111,15 @@ function App() {
               element={
                 <Col>
                   <AWSCRUD />
+                </Col>
+              }
+            />
+
+            <Route
+              path="/wordpress"
+              element={
+                <Col>
+                  <WordPress />
                 </Col>
               }
             />
