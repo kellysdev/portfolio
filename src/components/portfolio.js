@@ -13,8 +13,28 @@ const Portfolio = () => {
 
       <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
 
+{/* super owl */}
+      <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
+          <Col className="my-3">
+            <Row>
+              <Col><img src="client1.png" alt="wordpress mockup" className="portfolio-img"/></Col>
+              <Col lg={8}>
+                <h3>WordPress Website Maintenance</h3>
+                <h6 className="technologies text-secondary">Contract Work | WordPress | Maintenance</h6>
+                <p>
+                  Identification of a disontinued plugin conflicting with PHP update and implementing a fix after deactivating the plugin.  
+                  Assistance updating a theme several versions behind as well as fixing a broken Instagram feed display.
+                </p>
+                <div className="project-links d-flex">
+                  <a href="/wordpress"  className="btn btn-outline-info" >Case Study</a>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </motion.div>
+
 {/* aws-crud */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
           <Col className="my-3">
             <Row>
               <Col><img src="imageresizer.png" alt="AWS deployment screenshot" className="portfolio-img"/></Col>
@@ -38,7 +58,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* movie-angular-client */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
           <Col className="my-3">
             <Row>
               <Col><img src="angular-main.png" alt="angular movie app screenshot" className="portfolio-img"/></Col>
@@ -60,7 +80,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* movie-client */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot" className="portfolio-img"/></Col>
@@ -80,7 +100,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* meet */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
           <Col className="my-3">
             <Row>
               <Col><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
@@ -99,7 +119,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* chat */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.6}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="chat.png" alt="chat app screenshot" className="portfolio-img"/></Col>
@@ -117,7 +137,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* pokedex */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.6}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.7}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot" className="portfolio-img"/></Col>
