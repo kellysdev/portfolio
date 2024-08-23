@@ -20,7 +20,7 @@ const Portfolio = () => {
               <Col><img src="client1.png" alt="wordpress mockup" className="portfolio-img"/></Col>
               <Col lg={8}>
                 <h3>WordPress Website Maintenance</h3>
-                <h6 className="technologies text-secondary">Contract Work | WordPress | Maintenance</h6>
+                <h6 className="technologies text-secondary">WordPress | Plugins | Themes</h6>
                 <p>
                   Identification of a disontinued plugin conflicting with PHP update and implementing a fix after deactivating the plugin.  
                   Assistance updating a theme several versions behind as well as fixing a broken Instagram feed display.
