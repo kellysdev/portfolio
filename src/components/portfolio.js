@@ -17,7 +17,7 @@ const Portfolio = () => {
       <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
           <Col className="my-3">
             <Row>
-              <Col><img src="client1.png" alt="wordpress mockup" className="portfolio-img"/></Col>
+              <Col><img src="wordpress.png" alt="wordpress mockup" className="portfolio-img"/></Col>
               <Col lg={8}>
                 <h3>WordPress Website Maintenance</h3>
                 <h6 className="technologies text-secondary">WordPress | Plugins | Themes</h6>
