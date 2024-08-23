@@ -8,7 +8,7 @@ const WordPress = () => {
 
 {/* hero */}
         <Row>
-            <header className="wp-hero has-bg-img" style={{ paddingLeft: 0 }}>
+            <header className="wp-hero bg-danger corners" style={{ paddingLeft: 0 }}>
               <div className="p-3 text-center bg-image">
                 <div className="mask">
                   <div className="d-flex justify-content-center align-items-center h-100">
