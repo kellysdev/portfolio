@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <h3>Image Resizer & AWS App Deployment</h3>
                 <h6 className="technologies text-secondary">EC2 | AWS SDK | Lambda</h6>
                 <p>
-                  Am image resizer feature, added to the React CRUD single-page web app as a profile image feature, which allows the user to upload an image to an Amazon Web Services (AWS) S3 bucket.
+                  An image resizer feature, added to the React CRUD single-page web app as a profile image feature, which allows the user to upload an image to an Amazon Web Services (AWS) S3 bucket.
                   The image is resized, uploaded to a new folder in the bucket, and set as the profile image. 
                   The bucket of resized images is available to view client-side and the user may select a new profile image from it.
                   <br />
