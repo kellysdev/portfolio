@@ -16,7 +16,13 @@ code {
   text-align: center;
 }
 
-/* AWS CASET STUDY */
+/* WORDPRESS CASE STUDY */
+
+.wp-hero {
+  text-shadow: -3px 3px 0px rgba(11, 20, 31, 1);
+}
+
+/* AWS CASE STUDY */
 
 .corners {
   border-radius: 10px;
