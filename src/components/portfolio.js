@@ -13,27 +13,6 @@ const Portfolio = () => {
 
       <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
 
-{/* circuit timer */}
-      <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
-        <Col className="my-3">
-          <Row>
-            <Col><img src="circuittimer.png" alt="timer mockup" className="portfolio-img"/></Col>
-            <Col lg={8}>
-              <h3>React Circuit Timer</h3>
-              <h6 className="technologies text-secondary">React | Vite | AWS S3</h6>
-              <p>
-                A HIIT circuit timer where the user can edit the number of rounds and the time for active and rest rounds.  Built with React and Vite and is hosted in an AWS S3 bucket.
-              </p>
-              <div className="project-links d-flex">
-                <a href="https://github.com/kellysdev/circuit-timer" className="btn btn-outline-info" target="_blank" rel="noreferrer">GitHub Repo</a>
-                {/* <a href="http://circuit-timer.s3-website-us-west-1.amazonaws.com/" className="btn btn-outline-info" target="_blank" rel="noreferrer">Live App</a> */}
-                <a href="/circuit-timer-casestudy"  className="btn btn-outline-info" >Case Study</a>
-              </div>
-            </Col>
-          </Row>
-        </Col>
-      </motion.div>
-
 {/* super owl */}
       <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
           <Col className="my-3">
@@ -151,6 +130,27 @@ const Portfolio = () => {
                 <div className="project-links d-flex">
                   <a href="https://github.com/kellysdev/chat-app" className="btn btn-outline-info" target="_blank" rel="noreferrer">GitHub Repo</a>
                   <a href="/chat-case-study" className="btn btn-outline-info">Case Study</a>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </motion.div>
+
+{/* circuit timer */}
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
+          <Col className="my-3">
+            <Row>
+              <Col><img src="circuittimer.png" alt="timer mockup" className="portfolio-img"/></Col>
+              <Col lg={8}>
+                <h3>React Circuit Timer</h3>
+                <h6 className="technologies text-secondary">React | Vite | AWS S3</h6>
+                <p>
+                  A HIIT circuit timer where the user can edit the number of rounds and the time for active and rest rounds.  Built with React and Vite and is hosted in an AWS S3 bucket.
+                </p>
+                <div className="project-links d-flex">
+                  <a href="https://github.com/kellysdev/circuit-timer" className="btn btn-outline-info" target="_blank" rel="noreferrer">GitHub Repo</a>
+                  {/* <a href="http://circuit-timer.s3-website-us-west-1.amazonaws.com/" className="btn btn-outline-info" target="_blank" rel="noreferrer">Live App</a> */}
+                  <a href="/circuit-timer-casestudy"  className="btn btn-outline-info" >Case Study</a>
                 </div>
               </Col>
             </Row>
