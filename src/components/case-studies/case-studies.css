@@ -16,6 +16,12 @@ code {
   text-align: center;
 }
 
+/* CIRCUIT TIMER */
+
+.timer-hero {
+  background-color: #242424;
+}
+
 /* WORDPRESS CASE STUDY */
 
 .wp-hero {
