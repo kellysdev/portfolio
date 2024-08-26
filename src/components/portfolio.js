@@ -13,8 +13,29 @@ const Portfolio = () => {
 
       <Row className="mb-5 mt-3 g-3 d-flex portfolio-items-container" >
 
-{/* super owl */}
+{/* circuit timer */}
       <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.1}}>
+        <Col className="my-3">
+          <Row>
+            <Col><img src="circuittimer.png" alt="timer mockup" className="portfolio-img"/></Col>
+            <Col lg={8}>
+              <h3>React Circuit Timer</h3>
+              <h6 className="technologies text-secondary">React | Vite | AWS S3</h6>
+              <p>
+                A HIIT circuit timer where the user can edit the number of rounds and the time for active and rest rounds.  Built with React and Vite and is hosted in an AWS S3 bucket.
+              </p>
+              <div className="project-links d-flex">
+                <a href="https://github.com/kellysdev/circuit-timer" className="btn btn-outline-info" target="_blank" rel="noreferrer">GitHub Repo</a>
+                {/* <a href="http://circuit-timer.s3-website-us-west-1.amazonaws.com/" className="btn btn-outline-info" target="_blank" rel="noreferrer">Live App</a> */}
+                <a href="/circuit-timer-casestudy"  className="btn btn-outline-info" >Case Study</a>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </motion.div>
+
+{/* super owl */}
+      <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
           <Col className="my-3">
             <Row>
               <Col><img src="wordpress.png" alt="wordpress mockup" className="portfolio-img"/></Col>
@@ -34,7 +55,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* aws-crud */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.2}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
           <Col className="my-3">
             <Row>
               <Col><img src="imageresizer.png" alt="AWS deployment screenshot" className="portfolio-img"/></Col>
@@ -58,7 +79,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* movie-angular-client */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.3}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
           <Col className="my-3">
             <Row>
               <Col><img src="angular-main.png" alt="angular movie app screenshot" className="portfolio-img"/></Col>
@@ -80,7 +101,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* movie-client */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.4}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="popopolis.png" alt="movie app screenshot" className="portfolio-img"/></Col>
@@ -100,7 +121,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* meet */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.5}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.6}}>
           <Col className="my-3">
             <Row>
               <Col><img src="meet.png" alt="meet app screenshot" className="portfolio-img"/></Col>
@@ -119,7 +140,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* chat */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.6}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.7}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="chat.png" alt="chat app screenshot" className="portfolio-img"/></Col>
@@ -137,7 +158,7 @@ const Portfolio = () => {
         </motion.div>
 
 {/* pokedex */}
-        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.7}}>
+        <motion.div initial={{opacity: 0, y: 10}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5, delay: 0.8}}>
           <Col className="my-3">
             <Row>
               <Col className="portfolio-img"><img src="pokedex.png" alt="pokedex app screenshot" className="portfolio-img"/></Col>
