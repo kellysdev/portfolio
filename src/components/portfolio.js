@@ -149,7 +149,7 @@ const Portfolio = () => {
                 </p>
                 <div className="project-links d-flex">
                   <a href="https://github.com/kellysdev/circuit-timer" className="btn btn-outline-info" target="_blank" rel="noreferrer">GitHub Repo</a>
-                  {/* <a href="http://circuit-timer.s3-website-us-west-1.amazonaws.com/" className="btn btn-outline-info" target="_blank" rel="noreferrer">Live App</a> */}
+                  {/* <a href=`${process.env.REACT_APP_S3_TIMER_BUCKET}` className="btn btn-outline-info" target="_blank" rel="noreferrer">Live App</a> */}
                   <a href="/circuit-timer-casestudy"  className="btn btn-outline-info" >Case Study</a>
                 </div>
               </Col>
