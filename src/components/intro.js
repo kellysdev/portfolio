@@ -27,9 +27,7 @@ const Intro = () => {
         <motion.div className="intro-title" initial={{opacity: 0}} animate={{opacity: 1}} transition={{ ease: "easeOut", duration: 1.5}}>
           Full-Stack Web Developer</motion.div>
         <p className="intro-text">          
-          Hi, I'm Kelly.
-          <br/>
-          I am available for a full-time or part-time position (in person, hybrid, or remote) near Davis, CA.
+        <i class="bi bi-person-fill pe-2"></i>  Hi, I'm Kelly. 
         </p>
       </Col>
     </Row>
