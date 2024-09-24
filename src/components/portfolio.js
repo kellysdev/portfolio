@@ -22,8 +22,7 @@ const Portfolio = () => {
                 <h3>WordPress Website Maintenance</h3>
                 <h6 className="technologies text-secondary">WordPress | Plugins | Themes</h6>
                 <p>
-                  Identification of a discontinued plugin conflicting with PHP update and implementing a fix after deactivating the plugin.  
-                  Assistance updating a theme, as well as fixing a broken Instagram feed display.
+                  Resolve plugin, theme, and version compatibility issues and refresh the site's appearance with a new theme.
                 </p>
                 <div className="project-links d-flex">
                   <a href="/wordpress"  className="btn btn-outline-info" >Case Study</a>
