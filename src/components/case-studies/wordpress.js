@@ -44,8 +44,7 @@ const WordPress = () => {
               would crash when they update their version of PHP due to a conflict with the theme being used.
             </p>
             <p>
-              The client knew that I was studying web development and asked if I could look into the issue.
-              I had no prior experience with WordPress, but wanted to learn it, so I agreed to help out.
+              The client knew that I was intersted in learning about WordPress and asked if I could look into the issue.
             </p>
           </Row>
 
@@ -59,15 +58,6 @@ const WordPress = () => {
               and the WordPress admin area.  From these, I was able to find error messages and version numbers which
               which helped in researching solutions.  I also spent time with the staging site and the staging site editor.
             </p>
-            <div className="d-flex justify-content-center">
-              <ul>Issues:
-                <li>The PHP version was out of date and the website crashes when the PHP version is updated.</li>
-                <li>The theme was several versions behind and encounters an error when trying to update.</li>
-                <li>The Instagram feed did not display due to an out of date access token.</li>
-                <li>Some plugins need to be updated.</li>
-                <li>The navigation / header for the website disappears on medium to small screens.</li>
-              </ul>
-            </div>
           </Row>
 
 {/* troubleshooting */}
@@ -127,22 +117,12 @@ const WordPress = () => {
             </div>
 
             <div>          
-              <h4 className="text-center">PHP Version</h4>
-              <p>
-                Deactivate the plugin that conflicts with the PHP update and adjust site layout to work with out the plugin.
-              </p>
-            </div>
-
-            <div>
               <h4 className="text-center">Theme Update</h4>
-              <p>
-                Replay information from theme support to the client, including the link to the license management tool 
-                where the client can de-register the theme.  Show client how to re register the theme.
-              </p>
-              <p>
-                If the client cannot find the purchase code or login to the license management tool, 
-                I will build them a new website with a different theme.
-              </p>
+              <p>The theme and bundled plugins needed to be updated, but the client did not have the login credentials for the theme. 
+              They decided to let me rebuild the website with a new theme and to update the website's appearance.
+              <br /><br />
+              I chose a new theme that had the necessary features included in its free version and began building out the site
+              in a way that would be easy for them to update in the future.</p>
             </div>
 
             <div>
@@ -150,6 +130,8 @@ const WordPress = () => {
               <p>
                 With the client's login credentials for the Facebook account connected to their Instagram account, 
                 I can login to the plugin and reactivate the Instagram feed.
+                <br />
+                I also made sure to include links to all of their social media accounts on the contact page, as well as in the footer.
               </p>
             </div>
           </Row>          
