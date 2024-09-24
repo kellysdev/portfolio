@@ -27,7 +27,7 @@ const CircuitTimer = () => {
           <h2>Overview</h2>
           <p>The goal was to build an app that I would use while exploring new technologies.<br />
           I wanted to build a timer that would allow the user to set the length of active and rest periods,
-          set the number of rounds, and the length of the rest period between rounds.
+          and to set the number of rounds.
           </p>
         </Row>
 
@@ -53,7 +53,7 @@ const CircuitTimer = () => {
             <h4>Material UI</h4>
             <p>
               A suite of user interface (UI) tools that implements Google's Material Design.
-              The MUI components used in this project are the Circular Progress Bar, Snackbar, Chip, and Stepper.
+              The MUI components used in this project are the Circular Progress Bar, Snackbar, and Alert.
             </p>
           </Col>
 
@@ -72,8 +72,12 @@ const CircuitTimer = () => {
           <p>
             Getting the timer to work was the first step, then I worked on separating components and adding functionality.
             Handling the logic to switch between rounds was a little tricker than I thought it would be and I ended up watching 
-            several tutorials and trying a couple of different approaches before finding one that worked for me.
-            <br />I am still working on implementing the feature that will allow multiple sets of circuits with a rest time between.
+            a couple of tutorials and trying a couple of different approaches before finding one that worked for me.
+            <br /><br />
+            I came across an issue where the timer was counting down each round completed twice instead of once per round.  
+            After some debugging, I found that this was because, in Strict Mode, React double-invokes certain lifecycle methods and effects to help
+            catch potential issues with side effects.  By temporarily disabling Strict Mode, I was able to finish implementing the feature I was working on. 
+            When I built the app with Strict Mode enabled, everything worked as expected.
           </p>
           <p>
             It has been refreshing to learn new tools, such as Material UI and Vite.  
@@ -86,7 +90,7 @@ const CircuitTimer = () => {
           <h2>Summary</h2>
           <p>
             I have really been enjoying working on a project that I will use regurlarly and it has given me ideas for future projects, as well.  
-            While I am still implementing main features, I know this will be an application that I will continue to tinker with and improve over time.
+            I know this will be an application that I will continue to tinker with and improve over time.
           </p>
         </Row>
           
