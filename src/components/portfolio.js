@@ -19,10 +19,10 @@ const Portfolio = () => {
             <Row>
               <Col><img src="wordpress.png" alt="wordpress mockup" className="portfolio-img"/></Col>
               <Col lg={8}>
-                <h3>WordPress Website Maintenance</h3>
+                <h3>WordPress Website Refresh</h3>
                 <h6 className="technologies text-secondary">WordPress | Plugins | Themes</h6>
                 <p>
-                  Resolve plugin, theme, and version compatibility issues and refresh the site's appearance with a new theme.
+                  Redesign website to lok more modern as well as switch the website to a new theme and resolve plugin compatibility issues.
                 </p>
                 <div className="project-links d-flex">
                   <a href="/wordpress"  className="btn btn-outline-info" >Case Study</a>
