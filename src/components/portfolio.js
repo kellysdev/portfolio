@@ -142,7 +142,7 @@ const Portfolio = () => {
               <Col><img src="circuittimer.png" alt="timer mockup" className="portfolio-img"/></Col>
               <Col lg={8}>
                 <h3>React Circuit Timer</h3>
-                <h6 className="technologies text-secondary">React | Vite | AWS S3</h6>
+                <h6 className="technologies text-secondary">Material UI | Vite | AWS S3</h6>
                 <p>
                   A HIIT circuit timer where the user can edit the number of rounds and the time for active and rest rounds.  Built with React, Material UI, and Vite and is hosted in an AWS S3 bucket.
                 </p>
