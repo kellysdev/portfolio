@@ -89,8 +89,7 @@ const ResumePage = () => {
           <h4>CRUD Movie Application</h4>
           <ul>
             <li>Two versions of the client-side were built: one with React and Bootstrap and is hosted on Netlify, while the other was built with Angular and Angular Material and is hosted on GitHub pages.</li>
-            <li>The server-side is a REST API built with Node.js, Express and MongoDB. 
-              API endpoints were tested with Postman and the API is deployed on Heroku. Utilizes JWT authentication.</li>
+            <li>The API built with Node.js, Express and MongoDB. API endpoints were tested with Postman and the API is deployed on Heroku. Utilizes JWT authentication.</li>
             <li>A clone of the MERN client-side was deployed with AWS and received a new feature allowing users to add a profile image from a S3 bucket.  
               The client-side code was hosted in a S3 bucket while the web server ran behind an application load balancer on EC2 instances in private subnets in an auto scaling group across three availability zones.
             </li>
