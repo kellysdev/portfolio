@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <h3>WordPress Website Refresh</h3>
                 <h6 className="technologies text-secondary">WordPress | Plugins | Themes</h6>
                 <p>
-                  Redesign website to lok more modern as well as switch the website to a new theme and resolve plugin compatibility issues.
+                  Redesign website to look more modern as well as switch the website to a new theme and resolve plugin compatibility issues.
                 </p>
                 <div className="project-links d-flex">
                   <a href="/wordpress"  className="btn btn-outline-info" >Case Study</a>
