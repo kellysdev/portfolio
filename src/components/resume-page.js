@@ -60,7 +60,7 @@ const ResumePage = () => {
 
           <Col md={5}>
             <ul>
-              <li>Also proficient in</li>
+              <li>Additional</li>
                 <ul>
                   <li>Amazon Web Services</li>
                   <li>Functional Programming</li>
