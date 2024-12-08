@@ -32,22 +32,10 @@ const WordPress = () => {
             <Col>
               <h3 className="text-center">Goal</h3>
               <p>
-                To figure out why the website crashes when the version of PHP is updated and resolve
-                the issue before the update is pushed to the client's website.
+                To figure out why the website crashes when the version of PHP is updated and to update the design to be more modern and accessible on mobile devices.
               </p>
             </Col>
           </Row>
-          <Row>
-            <h3 className="text-center">Background</h3>
-            <p>
-              The client was notified by their website provider that their website 
-              would crash when they update their version of PHP due to a conflict with the theme being used.
-            </p>
-            <p>
-              The client knew that I was intersted in learning about WordPress and asked if I could look into the issue.
-            </p>
-          </Row>
-
           <Row className="bg-danger py-1 corners mx-5 my-4"></Row>
 
 {/* approach */}
