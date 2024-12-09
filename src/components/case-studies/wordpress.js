@@ -40,88 +40,36 @@ const WordPress = () => {
 
 {/* approach */}
           <Row>
-            <h1 className="text-center my-3">Approach</h1>
+            <h1 className="text-center my-3">Development</h1>
+            <h3>Approach</h3>
             <p>
-              With access to the GoDaddy account, I first spent time looking through the GoDaddy dashboard 
-              and the WordPress admin area.  From these, I was able to find error messages and version numbers which
-              which helped in researching solutions.  I also spent time with the staging site and the staging site editor.
+              With access to the GoDaddy account, I first created a quick backup site in the staging site that would be ready to launch
+               if the current website crashed.  Then I spent time looking through the GoDaddy dashboard and the WordPress admin area.  
+               From these, I was able to find error messages and version numbers which which helped in researching solutions.
             </p>
-          </Row>
-
-{/* troubleshooting */}
-          <Row>
-            <h2 className="text-center my-3">Troubleshooting</h2>
-            <div>
-              <h4 className="text-center">PHP Version</h4>
-              <p>
-                In the staging site editor, I updated the plugins one at a time and opened the staging site 
-                after each to see if there was an effect.  After attempting to update one plugin, 
-                it caused a critical error in the staging site, causing me to have to create a new staging site.  
-                In the new staging site editor, I deactivated the plugin that caused the critical error 
-                and then updated the PHP version.  The website did not crash this time.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="text-center">Updating Theme and Plugins</h4>
-              <p>
-                In staging, updating these this fixed the website layout (the header displays properly 
-                with a background image instead of the image being directly underneath it) and the 
-                website was responsive again (the navigation  / header collapses on smaller screens 
-                and is usable instead of disappearing).
-              </p>
-              <p>
-                In production, an error was encountered when trying to update the theme and some of the plugins.  
-                Due to the large gap in versions for the theme and the plugins having issues being associated with the theme
-                , I ended up contacting the theme support.  They suggested de-registering the theme and then registering it 
-                again in the theme settings in WordPress.  The purchase code and theme login credentials are required for this.
-              </p>
-            </div>
-
-            <div>
-                <h4 className="text-center">Instagram Feed</h4>
-                <p>
-                  After doing some research, I found that Meta implemented changes causing the access token initially implemented 
-                  when setting up this plugin was no longer valid.
-                </p>
-            </div>
+            <h3>Challenges</h3>
+            <p>
+              The theme that was in use had not been updated in a long time and turned out to be the main conflict with the newest version of PHP.  
+              Becuase the client didn't have the credentials to update the theme, we decided to switch the site to a new, free theme.
+              <br />
+              The site got a complete redesign within WordPress so that it would be responsive and accessible.  Most of the content remained the same, 
+              including the color palette, but some new graphics, a new page, and a video landing page was added.
+            </p>
           </Row>
 
           <Row className="bg-danger py-1 corners mx-5 my-4"></Row>
 
 {/* solution */}
           <Row>
-            <h1 className="text-center my-3">Solution</h1>
-            <div>
-              <h4 className="text-center">Back-Up Website</h4>
-                <p>
-                  Quick creation of a back-up website to be imported and published from recovery mode if the current website
-                  goes down before I am able to solve the issue.
-                </p>
-                <p>
-                  Built using a custom block theme and only one plugin for a contact form.  It looks very similar to the current website 
-                  but without the animated header and parallax part of the footer.
-                </p>
-            </div>
-
-            <div>          
-              <h4 className="text-center">Theme Update</h4>
-              <p>The theme and bundled plugins needed to be updated, but the client did not have the login credentials for the theme. 
-              They decided to let me rebuild the website with a new theme and to update the website's appearance.
-              <br /><br />
-              I chose a new theme that had the necessary features included in its free version and began building out the site
-              in a way that would be easy for them to update in the future.</p>
-            </div>
-
-            <div>
-              <h4 className="text-center">Instagram Feed</h4>
+            <h1 className="text-center my-3">Summary</h1>
               <p>
-                With the client's login credentials for the Facebook account connected to their Instagram account, 
-                I can login to the plugin and reactivate the Instagram feed.
+                Once the WordPress site had been moved to the new theme, I was able to redesign the website and shared it with the client 
+                via the staging site.  They approved of the new design, contributed some additional images and video to add, and requested some minor adjustments.  
+                I added an events page and was able to have the new site live before their 7th anniversary event.
                 <br />
-                I also made sure to include links to all of their social media accounts on the contact page, as well as in the footer.
+                I also created tutorials for the client so that they can update the website themselves, since this was difficult for them to do in the past.
               </p>
-            </div>
+              <p>The new site is clean, modern, and responsive.  It represents the client and is easier for them to maintain themselves.</p>
           </Row>          
 
       </Col>
