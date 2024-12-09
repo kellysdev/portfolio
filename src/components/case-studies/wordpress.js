@@ -3,7 +3,7 @@ import Col from "react-bootstrap/Col";
 
 const WordPress = () => {
   return (
-    <Row>
+    <Row className="text-center">
       <Col className="mx-auto" lg={9}>
 
 {/* hero */}
@@ -24,13 +24,13 @@ const WordPress = () => {
 
 {/* overview */}
           <Row>
-            <h1 className="text-center my-3">Overview</h1>
+            <h1 className="my-3">Overview</h1>
             <Col>
-              <h3 className="text-center">Client</h3>
+              <h3>Client</h3>
               <p>A neighborhood brewery running a GoDaddy Managed WordPress website.</p>
             </Col>
             <Col>
-              <h3 className="text-center">Goal</h3>
+              <h3>Goal</h3>
               <p>
                 To figure out why the website crashes when the version of PHP is updated and to update the design to be more modern and accessible on mobile devices.
               </p>
@@ -40,7 +40,7 @@ const WordPress = () => {
 
 {/* approach */}
           <Row>
-            <h1 className="text-center my-3">Development</h1>
+            <h1 className="my-3">Development</h1>
             <h3>Approach</h3>
             <p>
               With access to the GoDaddy account, I first created a quick backup site in the staging site that would be ready to launch
@@ -61,7 +61,7 @@ const WordPress = () => {
 
 {/* solution */}
           <Row>
-            <h1 className="text-center my-3">Summary</h1>
+            <h1 className="my-3">Summary</h1>
               <p>
                 Once the WordPress site had been moved to the new theme, I was able to redesign the website and shared it with the client 
                 via the staging site.  They approved of the new design, contributed some additional images and video to add, and requested some minor adjustments.  
