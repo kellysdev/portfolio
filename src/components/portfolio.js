@@ -25,6 +25,7 @@ const Portfolio = () => {
                   Redesign website to look more modern as well as switch the website to a new theme and resolve plugin compatibility issues.
                 </p>
                 <div className="project-links d-flex">
+                <a href="https://www.superowlbrewing.com/" className="btn btn-outline-info" target="_blank" rel="noreferrer">Live Site</a>
                   <a href="/wordpress"  className="btn btn-outline-info" >Case Study</a>
                 </div>
               </Col>
