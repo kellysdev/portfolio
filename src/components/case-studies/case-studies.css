@@ -28,6 +28,11 @@ code {
   text-shadow: -3px 3px 0px rgba(11, 20, 31, 1);
 }
 
+.sob-button {
+  max-width: 60%;
+  margin-inline: auto;
+}
+
 /* AWS CASE STUDY */
 
 .corners {

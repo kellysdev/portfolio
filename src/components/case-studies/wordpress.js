@@ -1,5 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 
 const WordPress = () => {
   return (
@@ -70,6 +71,9 @@ const WordPress = () => {
                 I also created tutorials for the client so that they can update the website themselves, since this was difficult for them to do in the past.
               </p>
               <p>The new site is clean, modern, and responsive.  It represents the client and is easier for them to maintain themselves.</p>
+              <Button href="https://www.superowlbrewing.com/" variant="danger" className="sob-button my-4" target="_blank" >
+                Visit Super Owl Brewing's New Website
+              </Button>
           </Row>          
 
       </Col>
